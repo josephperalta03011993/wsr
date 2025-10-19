@@ -30,12 +30,17 @@
         <img src="/wsr/public/images/logo.png" alt="WSR-LogoTemp">
       </section>
       <nav class="main-nav"> <!-- note no hamburger menu yet -->
-        <a href="/wsr/index.php">Home Page</a>
+        <a href="/wsr/index.php">Home</a>
         <a href="/wsr/views/resources.php">Resources Hub</a>
         <a href="/wsr/views/programs.php" class="dropdown">
           <span>Programs Menu</span>
           <span class="material-icons">expand_more</span>
         </a>
+        <a href="/wsr/views/contacts.php">Contacts</a>
+        <a href="/wsr/views/group.php">Join Group</a>
+        <a href="/wsr/views/news.php">Latest News</a>
+        <a href="/wsr/views/helpcenter.php">Help Center</a>
+        <a href="/wsr/views/successstories.php">Success Stories</a>
       </nav>
     </div>
     <button class="btn btn-primary">Learn</button> <!-- change function or remove -->
