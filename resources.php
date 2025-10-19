@@ -27,7 +27,7 @@
   <header class="site-header">
     <div class="logo-nav">
       <section class="logo">
-        <img src="src/assets/logo.png" alt="WSR-LogoTemp">
+        <img src="public/images/logo.png" alt="WSR-LogoTemp">
       </section>
       <nav class="main-nav"> <!-- note no hamburger menu yet -->
         <a href="https://jaryne.github.io/wsr-website-main/public/index.html">Home Page</a>
@@ -48,7 +48,7 @@
   <footer class="site-footer">
     <div class="footer-top">
       <section class="logo">
-        <img src="src/assets/logo.png" alt="WSR-LogoTemp">
+        <img src="public/images/logo.png" alt="WSR-LogoTemp">
       </section>
       <nav class="footer-nav">
         <a href="#">Contact Us</a>
