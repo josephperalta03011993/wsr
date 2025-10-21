@@ -30,10 +30,8 @@
 
     <!-- Hero Section -->
     <section class="hero">
-      <h2>Empowering Communities Through Welfare and Self-Reliance</h2>
-      <p>At Welfare and Self-Reliance, we envision a future where every individual has the resources and support
-        needed to thrive. We are dedicated to creating opportunities and services that empower our community to
-        become self-reliant.</p>
+      <h2>Welfare and Self-Reliance Services Toolkit and Resource Library</h2>
+      <p> Online resources of WSR products and services for Stake Leaders, Specialists, Unit Leaders, and members.</p>
       <div class="btn-group">
         <button class="btn btn-primary">Learn More</button>
         <button class="btn btn-outline">Get Involved</button>
@@ -43,26 +41,26 @@
     <!-- Resources Section -->
     <section class="resources">
       <div class="section-header">
-        <h2>Empowering Communities Through Comprehensive Welfare and Self-Reliance Resources</h2>
+        <h2>Building Self-Reliance through Education, Employment, and Entrepreneurship.</h2>
       </div>
       <div class="grid">
         <div class="card">
           <span class="material-icons">explore</span>
-          <h3>Explore Our Toolbox</h3>
+          <h3>WSR Toolbox</h3>
           <p>Discover a range of programs designed to uplift and support our values.</p>
           <a href="#">Learn More &gt;</a>
         </div>
         <div class="card">
           <span class="material-icons">school</span>
-          <h3>Training and Development</h3>
+          <h3>Self-Reliance Courses</h3>
           <p>We provide resources and diverse educational offerings tailored for success.</p>
           <a href="#">Sign Up &gt;</a>
         </div>
         <div class="card">
           <span class="material-icons">groups</span>
-          <h3>Join Our Community</h3>
+          <h3>Join a Self-Reliance Group</h3>
           <p>Become part of a network that celebrates achievements and supports others.</p>
-          <a href="#">Contact Us &gt;</a>
+          <a href="/wsr/views/group.php">Contact Us &gt;</a>
         </div>
       </div>
     </section>
@@ -79,18 +77,18 @@
           <img src="https://i.pinimg.com/736x/c8/9a/82/c89a82680e3a58c295d335eebefdfdea.jpg" alt="">
           <div class="card-body">
             <p class="subtitle">Updates</p>
-            <h3>New Training Courses</h3>
+            <h3>New PEF Approved Programs</h3>
             <p>Explore our new courses designed to enhance your skills and opportunities.</p>
-            <a href="#">Read more &gt;</a>
+            <a href="/wsr/views/programs.php">Read more &gt;</a>
           </div>
         </div>
         <div class="news-card">
           <img src="https://i.pinimg.com/736x/06/51/2c/06512c71b581284a6c2de6cdc12a2446.jpg" alt="">
           <div class="card-body">
             <p class="subtitle">Updates</p>
-            <h3>Community Success Stories</h3>
+            <h3>Inspiring Success Stories</h3>
             <p>Be inspired by the achievements of our members.</p>
-            <a href="#">Read more &gt;</a>
+            <a href="/wsr/views/successstories.php">Read more &gt;</a>
           </div>
         </div>
         <div class="news-card">
@@ -99,7 +97,7 @@
             <p class="subtitle">Events</p>
             <h3>Upcoming Events</h3>
             <p>Join our upcoming training and community events.</p>
-            <a href="#">Read more &gt;</a>
+            <a href="/wsr/views/news.php">Read more &gt;</a>
           </div>
         </div>
       </div>
