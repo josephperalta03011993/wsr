@@ -48,16 +48,13 @@
           <p class="center text-muted">No published blog posts yet.</p>
         <?php endif; ?>
       </div>
-
-      <div class="center mt-5">
-        <button class="btn btn-outline" onclick="window.location.reload()">Refresh</button>
-      </div>
+      
     </div>
   </section>
 
   <!-- Call to Action -->
   <section class="cta position-relative py-5 text-center">
-    <img src="https://i.pinimg.com/736x/6d/a4/0b/6da40b7b302992a5037a3c58a1f7e2b7.jpg" alt="" class="cta-bg">
+    <img src="https://i.pinimg.com/736x/c6/9e/22/c69e2246df9dd5a3a0ad078271ed2140.jpg" alt="" class="cta-bg">
     <div class="cta-content container">
       <h2 class="text-light mb-3">Share Your Story With Us</h2>
       <p class="text-light mb-4">Have an inspiring journey or insight to share? Join our blog contributors and empower others.</p>
