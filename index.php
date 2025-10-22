@@ -60,7 +60,7 @@
           <span class="material-icons">groups</span>
           <h3>Join a Self-Reliance Group</h3>
           <p>Become part of a network that celebrates achievements and supports others.</p>
-          <a href="/wsr/views/group.php">Contact Us &gt;</a>
+          <a href="/views/group.php">Contact Us &gt;</a>
         </div>
       </div>
     </section>
@@ -79,7 +79,7 @@
             <p class="subtitle">Updates</p>
             <h3>New PEF Approved Programs</h3>
             <p>Explore our new courses designed to enhance your skills and opportunities.</p>
-            <a href="/wsr/views/programs.php">Read more &gt;</a>
+            <a href="/views/programs.php">Read more &gt;</a>
           </div>
         </div>
         <div class="news-card">
@@ -88,7 +88,7 @@
             <p class="subtitle">Updates</p>
             <h3>Inspiring Success Stories</h3>
             <p>Be inspired by the achievements of our members.</p>
-            <a href="/wsr/views/successstories.php">Read more &gt;</a>
+            <a href="/views/successstories.php">Read more &gt;</a>
           </div>
         </div>
         <div class="news-card">
@@ -97,7 +97,7 @@
             <p class="subtitle">Events</p>
             <h3>Upcoming Events</h3>
             <p>Join our upcoming training and community events.</p>
-            <a href="/wsr/views/news.php">Read more &gt;</a>
+            <a href="/views/news.php">Read more &gt;</a>
           </div>
         </div>
       </div>

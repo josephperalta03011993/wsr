@@ -31,7 +31,7 @@
             <?php
               // Construct the full image path
               $imagePath = !empty($row['image']) 
-                ? '/wsr/public/images/' . htmlspecialchars($row['image']) 
+                ? '/public/images/' . htmlspecialchars($row['image']) 
                 : 'assets/images/default-blog.jpg';
             ?>
             <div class="blog-card">
@@ -48,7 +48,7 @@
           <p class="center text-muted">No published blog posts yet.</p>
         <?php endif; ?>
       </div>
-      
+
     </div>
   </section>
 
