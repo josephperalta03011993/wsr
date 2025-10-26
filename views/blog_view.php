@@ -24,19 +24,27 @@
     </section>
 
     <section class="blog-content container">
-      <img 
-        src="<?php echo htmlspecialchars($post['image'] ?: '../public/images/default-blog.jpg'); ?>" 
-        alt="<?php echo htmlspecialchars($post['title']); ?>" 
-        class="blog-featured-image"
-      >
-      <div class="content-text">
-        <?php echo nl2br($post['content']); ?>
+    <div class="blog-grid">
+      <div class="blog-image">
+        <img 
+          src="<?php echo '../public/images/'.htmlspecialchars($post['image'] ?: 'default-blog.jpg'); ?>" 
+          alt="<?php echo htmlspecialchars($post['title']); ?>" 
+          class="blog-featured-image"
+        >
       </div>
 
-      <div class="back-link">
-        <a href="blogs.php" class="btn btn-outline">&lt; Back to Blogs</a>
+      <div class="content-text">
+        <?php echo nl2br($post['content']); ?>
+
+        <div class="back-link">
+          <br>
+          <a href="blogs.php" class="btn btn-outline">&lt; Back to Blogs</a>
+          <br><br>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
+
   <?php else: ?>
     <section class="hero blog-hero">
       <h2>Blog Not Found</h2>
