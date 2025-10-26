@@ -11,23 +11,23 @@
   <!-- Open Graph tags -->
   <meta property="og:title" content="WSR Library Programs">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://josephperalta03011993.github.io-website/public/assets/logo.png">
-  <meta property="og:url" content="https://josephperalta03011993.github.io-website/public/index.html">
+  <meta property="og:image" content="https://josephperalta03011993.github.io-website../public/assets/logo.png">
+  <meta property="og:url" content="https://josephperalta03011993.github.io-website../public/index.html">
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="icon" href="/public/images/logo.png" type="image/x-icon">
+  <link rel="icon" href="../public/images/logo.png" type="image/x-icon">
 
-  <link rel="stylesheet" href="/public/css/styles.css">
+  <link rel="stylesheet" href="../public/css/styles.css">
 
-  <script src="/public/js/main.js" defer></script>
+  <script src="../public/js/main.js" defer></script>
 </head>
 
 <body>
   <header class="site-header">
     <div class="logo-nav">
       <section class="logo">
-        <img src="/public/images/logo.png" alt="WSR-LogoTemp">
+        <img src="../public/images/logo.png" alt="WSR-LogoTemp">
       </section>
       <nav class="main-nav"> <!-- note no hamburger menu yet -->
         <a href="/index.php">Home</a>

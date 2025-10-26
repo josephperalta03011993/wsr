@@ -25,7 +25,7 @@
 
     <section class="blog-content container">
       <img 
-        src="<?php echo htmlspecialchars($post['image'] ?: 'assets/images/default-blog.jpg'); ?>" 
+        src="<?php echo htmlspecialchars($post['image'] ?: '../public/images/default-blog.jpg'); ?>" 
         alt="<?php echo htmlspecialchars($post['title']); ?>" 
         class="blog-featured-image"
       >
