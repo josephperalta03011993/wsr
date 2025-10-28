@@ -103,9 +103,11 @@ img {
 
 /* LOGO (desktop & mobile drawer) */
 .site-header .logo img,
+.site-footer .logo img,
 .mobile-logo img {
     height: 44px;
     width: auto;
+    filter: brightness(30%);
 }
 
 /* ---------- DESKTOP NAV ---------- */
@@ -119,6 +121,7 @@ img {
     font-weight: 500;
     font-size: .95rem;
     transition: color .2s;
+    margin-top: .4rem;
 }
 .main-nav a:hover { color: #111827; }
 
@@ -142,6 +145,7 @@ img {
 .dropdown-toggle .material-icons {
     font-size: 1.25rem;
     transition: transform .2s;
+    margin-top: 8px;
 }
 .dropdown-toggle[aria-expanded="true"] .material-icons {
     transform: rotate(180deg);
