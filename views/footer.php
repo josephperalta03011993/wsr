@@ -1,7 +1,7 @@
   <footer class="site-footer">
     <div class="footer-top">
       <section class="logo">
-        <img src="/public/images/logo.png" alt="WSR-LogoTemp">
+        <img src="../wsr/public/images/logo.png" alt="WSR-LogoTemp" width="50" height="auto">
       </section>
       <nav class="footer-nav">
         <a href="#">Contact Us</a>
