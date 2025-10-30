@@ -1,14 +1,3 @@
-// For now, just handles dropdown (needs layout fixing in css)
-document.addEventListener("DOMContentLoaded", () => {
-    const dropdown = document.querySelector(".dropdown");
-    if (dropdown) {
-        dropdown.addEventListener("click", (e) => {
-            e.preventDefault();
-            alert("Dropdown menu would open here.");
-        });
-    }
-});
-
 // Carousel script
 const slides = document.querySelectorAll('.carousel-slide');
 const nextBtn = document.querySelector('.next');
