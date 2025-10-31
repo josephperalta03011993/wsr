@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
   <main>
-    <h1>Programs and Services Hub</h1>    
+    <h1>Education Services</h1>    
   </main>
 <?php include 'footer.php'; ?>
