@@ -66,12 +66,11 @@
 
           <!-- Education Services -->
           <div class="submenu">
-            <strong>Education Services</strong>
-            <a href="/views/education.php">Landing Page</a>
+            <a href="/wsr/views/education-services.php"><strong>Education Support Services</strong></a>
 
             <strong style="margin-top:0.5rem;display:block;">Perpetual Education Fund</strong>
             <a href="/views/pef-roadmap.php">Roadmap</a>
-            <a href="/views/pef-apply.php">How to Apply</a>
+            <a href="/wsr/views/education-services.php#how-to-apply">How to Apply</a>
             <a href="/views/pef-schools.php">Approved schools & programs</a>
             <a href="/views/pef-loan.php">Apply for a PEF Loan</a>
 
