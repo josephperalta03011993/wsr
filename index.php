@@ -121,5 +121,5 @@
     </section>
   </main>
 <?php 
-  include_once('..wsr/views/footer.php');
+  include_once('views/footer.php');
 ?>
