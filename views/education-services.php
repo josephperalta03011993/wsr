@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-  <div class='main'>
+  <div class="padding-50">
     <h1>Education Support Services</h1>
     <h2>Perpetual Education Fund</h2>
     <p>The Perpetual Education Fund (PEF) is a program designed to provide educational opportunities and support to individuals seeking to improve their skills and knowledge. Through PEF, we offer a variety of courses and training programs aimed at empowering individuals to achieve their personal and professional goals.</p>

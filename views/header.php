@@ -19,9 +19,8 @@
   <link rel="icon" href="../public/images/logo.png" type="image/x-icon">
 
   <link rel="stylesheet" href="../public/css/styles.css">
-  <link rel="stylesheet" href="./public/css/styles.css">
 
-  <script src="./public/js/main.js" defer></script>
+  <script src="../public/js/main.js" defer></script>
 </head>
 
 <body>
@@ -126,7 +125,7 @@
   <div class="mobile-drawer" aria-hidden="true">
     <div class="mobile-drawer-header">
       <a href="/index.php" class="logo mobile-logo">
-        <img src="../wsr/public/images/logo.png" alt="WSR Logo">
+        <img src="../public/images/logo.png" alt="WSR Logo">
       </a>
       <button class="mobile-close" aria-label="Close menu">
         <span class="material-icons">close</span>
