@@ -19,15 +19,16 @@
   <link rel="icon" href="../public/images/logo.png" type="image/x-icon">
 
   <link rel="stylesheet" href="../public/css/styles.css">
+  <link rel="stylesheet" href="./public/css/styles.css">
 
-  <script src="../public/js/main.js" defer></script>
+  <script src="./public/js/main.js" defer></script>
 </head>
 
 <body>
   <header class="site-header">
     <!-- LOGO -->
     <a href="/index.php" class="logo">
-      <img src="../public/images/logo.png" alt="WSR Logo">
+      <img src="../public/images/logo.png" alt="WSR Logo"> <!-- need to figure out how to link this to index without duplicating -->
     </a>
 
     <!-- DESKTOP NAV -->
