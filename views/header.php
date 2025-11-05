@@ -19,15 +19,16 @@
   <link rel="icon" href="../public/images/logo.png" type="image/x-icon">
 
   <link rel="stylesheet" href="../public/css/styles.css">
+  <link rel="stylesheet" href="./public/css/styles.css">
 
-  <script src="../public/js/main.js" defer></script>
+  <script src="./public/js/main.js" defer></script>
 </head>
 
 <body>
   <header class="site-header">
     <!-- LOGO -->
     <a href="/index.php" class="logo">
-      <img src="../public/images/logo.png" alt="WSR Logo">
+      <img src="../public/images/logo.png" alt="WSR Logo"> <!-- need to figure out how to link this to index without duplicating -->
     </a>
 
     <!-- DESKTOP NAV -->
@@ -65,12 +66,11 @@
 
           <!-- Education Services -->
           <div class="submenu">
-            <strong>Education Services</strong>
-            <a href="/views/education.php">Landing Page</a>
+            <a href="/wsr/views/education-services.php"><strong>Education Support Services</strong></a>
 
             <strong style="margin-top:0.5rem;display:block;">Perpetual Education Fund</strong>
             <a href="/views/pef-roadmap.php">Roadmap</a>
-            <a href="/views/pef-apply.php">How to Apply</a>
+            <a href="/wsr/views/education-services.php#how-to-apply">How to Apply</a>
             <a href="/views/pef-schools.php">Approved schools & programs</a>
             <a href="/views/pef-loan.php">Apply for a PEF Loan</a>
 

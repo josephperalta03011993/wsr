@@ -1,11 +1,11 @@
 <?php include 'header.php'; ?>
-  <main>
-    <h1>Education Services</h1>
+  <div class='main'>
+    <h1>Education Support Services</h1>
     <h2>Perpetual Education Fund</h2>
     <p>The Perpetual Education Fund (PEF) is a program designed to provide educational opportunities and support to individuals seeking to improve their skills and knowledge. Through PEF, we offer a variety of courses and training programs aimed at empowering individuals to achieve their personal and professional goals.</p>
     <h3>PEF Application Roadmap</h3>
     <p>Our PEF Application Roadmap outlines the steps and requirements for applying to our educational programs. This roadmap is designed to guide applicants through the application process, ensuring they have all the necessary information and resources to successfully apply for our courses.</p>
-    <h3>How to Apply</h3>   
+    <h3 id="how-to-apply">How to Apply</h3>   
     <p>To apply for our educational programs through the Perpetual Education Fund, please follow these steps:</p>
     <ol>
       <li>Visit our application portal on our website.</li>
@@ -70,17 +70,6 @@
     <ol>
       <li><a href="wsr/views/successstories.php">Success Stories - WSR</a></li>
     </ol>
-      <!-- Call to Action -->
-  <section class="cta position-relative py-5 text-center">
-    <img src="https://i.pinimg.com/736x/c6/9e/22/c69e2246df9dd5a3a0ad078271ed2140.jpg" alt="" class="cta-bg">
-    <div class="cta-content container">
-      <h2 class="text-light mb-3">Share Your Story With Us</h2>
-      <p class="text-light mb-4">Have an inspiring journey or insight to share? Join our blog contributors and empower others.</p>
-      <div class="btn-group">
-        <button class="btn btn-outline-light">Contact Us</button>
-        <button class="btn btn-light">Submit Story</button>
-      </div>
-    </div>
-  </section>
+    
   </main>
 <?php include 'footer.php'; ?>
