@@ -111,6 +111,11 @@ img {
 }
 
 /* ---------- DESKTOP NAV ---------- */
+.main {
+    padding: 20%;
+    background-color: red;
+}
+
 .main-nav.desktop-only {
     display: none;               /* hidden on mobile */
     gap: 2rem;
