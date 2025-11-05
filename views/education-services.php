@@ -16,6 +16,33 @@
     </ol>
     <p>For more information or assistance with the application process, please contact our support team.</p>
     <li><a href="https://www.churchofjesuschrist.org/support/pef?lang=eng">Perpetual Education Fund - Official Site</a></li>
+
+    <!-- Education Resources Section -->
+    <section class="resources">
+      <div class="section-header">
+        <h2>Building Self-Reliance through Education, Employment, and Entrepreneurship.</h2>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <span class="material-icons">explore</span>
+          <h3>WSR Toolbox</h3>
+          <p>Discover a range of programs designed to uplift and support our values.</p>
+          <a href="#">Learn More &gt;</a>
+        </div>
+        <div class="card">
+          <span class="material-icons">school</span>
+          <h3>Self-Reliance Courses</h3>
+          <p>We provide resources and diverse educational offerings tailored for success.</p>
+          <a href="#">Sign Up &gt;</a>
+        </div>
+        <div class="card">
+          <span class="material-icons">groups</span>
+          <h3>Join a Self-Reliance Group</h3>
+          <p>Become part of a network that celebrates achievements and supports others.</p>
+          <a href="../wsr/views/group.php">Contact Us &gt;</a>
+        </div>
+      </div>
+    </section>
     <h2>Benson Food and Agriculture Scholarship</h2>
     <p>The Benson Food and Agriculture Scholarship is a specialized scholarship program aimed at supporting individuals pursuing education and careers in the fields of food and agriculture. This scholarship provides financial assistance to help cover tuition, fees, and other educational expenses for eligible students.</p>
     <h3>Roadmap to Apply for Benson Scholarship</h3>
@@ -44,5 +71,5 @@
       <li><a href="wsr/views/successstories.php">Success Stories - WSR</a></li>
     </ol>
     
-</div>
+  </main>
 <?php include 'footer.php'; ?>
