@@ -70,6 +70,5 @@
     <ol>
       <li><a href="wsr/views/successstories.php">Success Stories - WSR</a></li>
     </ol>
-    
-  </main>
+</div>
 <?php include 'footer.php'; ?>
