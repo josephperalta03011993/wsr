@@ -115,9 +115,9 @@
         </div>
       </div>
 
-      <a href="<?= BASE_URL ?>/views/successstories.php">Success Stories</a>
-      <a href="<?= BASE_URL ?>/views/contacts.php">Contact Us</a>
-      <a href="<?= BASE_URL ?>/views/about.php">About Us</a>
+      <a href="<?= BASE_URL ?>views/successstories.php">Success Stories</a>
+      <a href="<?= BASE_URL ?>views/contacts.php">Contact Us</a>
+      <a href="<?= BASE_URL ?>views/about.php">About Us</a>
     </nav>
 
     <!-- CTA BUTTON (desktop) -->
@@ -161,9 +161,9 @@
         </div>
       </div>
 
-      <a href="/views/successstories.php" class="mobile-nav-link">Success Stories</a>
-      <a href="/views/contacts.php" class="mobile-nav-link">Contact Us</a>
-      <a href="/views/about.php" class="mobile-nav-link">About Us</a>
+      <a href="<?= BASE_URL ?>views/successstories.php" class="mobile-nav-link">Success Stories</a>
+      <a href="<?= BASE_URL ?>views/contacts.php" class="mobile-nav-link">Contact Us</a>
+      <a href="<?= BASE_URL ?>views/about.php" class="mobile-nav-link">About Us</a>
 
       <a href="#learn" class="btn btn-primary mobile-cta">Learn</a>
     </nav>
