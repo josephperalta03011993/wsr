@@ -1,66 +1,94 @@
 <?php
-  include_once('header.php');
-  include_once(__DIR__ . '/../config/database.php'); 
+include_once('header.php');
+include_once(__DIR__ . '/../config/database.php');
 
-  // Fetch published blogs
-  $query = "SELECT * FROM blogs WHERE status = 'published' ORDER BY published_at DESC";
-  $result = $conn->query($query);
+// Fetch published blogs
+$query = "SELECT * FROM blogs WHERE status = 'published' ORDER BY published_at DESC";
+$result = $conn->query($query);
 ?>
 
 <main class="blogs-page">
 
-  <!-- Hero Section -->
-  <section class="hero blog-hero text-center py-5">
-    <div class="container">
-      <h2 class="mb-3">Success Stories</h2>
-      <p class="lead text-muted">Read inspiring stories, updates, and insights from Welfare and Self-Reliance.</p>
+  <!-- FULL-WIDTH CINEMATIC HERO (matches homepage carousel style) -->
+  <section class="hero-carousel blog-hero-section" data-aos="fade-down">
+    <div class="carousel-container">
+      <div class="carousel-slide active" 
+           style="background-image: url('<?= BASE_URL ?>/public/images/blog-hero-1.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-text container">
+          <h1 data-aos="fade-up" data-aos-delay="300">Success Stories & Insights</h1>
+          <p data-aos="fade-up" data-aos-delay="500">
+            Real people. Real transformation. Be inspired by journeys of faith, education, employment, and self-reliance.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Blog List Section -->
-  <section class="blogs-list py-5">
+  <!-- LATEST ARTICLES SECTION -->
+  <section class="py-5">
     <div class="container">
-      <div class="section-header text-center mb-5">
-        <h2 class="mb-2">Latest Articles</h2>
-        <p class="text-muted">Explore helpful tips, success stories, and news from our community initiatives.</p>
+      <div class="section-header text-center mb-5" data-aos="fade-up">
+        <h2>Latest Success Stories</h2>
+        <p class="text-muted">Powerful testimonies from members who have walked the path of self-reliance</p>
       </div>
 
       <div class="grid">
         <?php if ($result && $result->num_rows > 0): ?>
-          <?php while ($row = $result->fetch_assoc()): ?>
-            <?php
-              // Construct the full image path
-              $imagePath = !empty($row['image']) 
-                ? '../public/images/' . htmlspecialchars($row['image']) 
-                : 'assets/images/default-blog.jpg';
-            ?>
-            <div class="blog-card">
-              <img src="<?php echo $imagePath; ?>" alt="<?php echo htmlspecialchars($row['title']); ?>">
-              <div class="card-body">
-                <p class="subtitle text-muted mb-1"><?php echo ucfirst($row['author']); ?></p>
-                <h3 class="blog-title mb-2"><?php echo htmlspecialchars($row['title']); ?></h3>
-                <p class="blog-excerpt mb-3"><?php echo substr(strip_tags($row['content']), 0, 120); ?>...</p>
-                <a href="blog_view.php?slug=<?php echo urlencode($row['slug']); ?>" class="read-more">Read More &gt;</a>
+          <?php 
+          $delay = 100;
+          while ($row = $result->fetch_assoc()): 
+            $imagePath = !empty($row['image']) 
+              ? '../public/images/' . htmlspecialchars($row['image']) 
+              : 'https://via.placeholder.com/800x600.png?text=No+Image';
+          ?>
+            <article class="blog-card" data-aos="fade-up" data-aos-delay="<?= $delay ?>">
+              <div class="blog-image">
+                <img src="<?= $imagePath ?>" alt="<?= htmlspecialchars($row['title']) ?>" loading="lazy">
               </div>
-            </div>
-          <?php endwhile; ?>
+              <div class="card-body">
+                <p class="subtitle text-muted mb-1">
+                  <span class="material-icons" style="font-size:1rem;vertical-align:-2px;">person</span>
+                  <?= ucwords(htmlspecialchars($row['author'])) ?>
+                  &nbsp;&nbsp;•&nbsp;&nbsp;
+                  <span class="material-icons" style="font-size:1rem;vertical-align:-2px;">calendar_today</span>
+                  <?= date('M j, Y', strtotime($row['published_at'])) ?>
+                </p>
+                <h3 class="blog-title mb-2"><?= htmlspecialchars($row['title']) ?></h3>
+                <p class="blog-excerpt text-muted">
+                  <?= substr(strip_tags($row['content']), 0, 140) ?>...
+                </p>
+                <a href="blog_view.php?slug=<?= urlencode($row['slug']) ?>" class="read-more">
+                  Read the Full Story <span class="material-icons" style="font-size:1.1em;">arrow_right_alt</span>
+                </a>
+              </div>
+            </article>
+            <?php 
+            $delay += 100;
+            if ($delay > 400) $delay = 100; // reset stagger
+            endwhile; 
+          ?>
         <?php else: ?>
-          <p class="center text-muted">No published blog posts yet.</p>
+          <p class="center text-muted py-5" data-aos="fade-up">
+            No success stories published yet. Check back soon!
+          </p>
         <?php endif; ?>
       </div>
-
     </div>
   </section>
 
-  <!-- Call to Action -->
-  <section class="cta position-relative py-5 text-center">
-    <img src="https://i.pinimg.com/736x/c6/9e/22/c69e2246df9dd5a3a0ad078271ed2140.jpg" alt="" class="cta-bg">
+  <!-- PREMIUM CTA SECTION (matches homepage exactly) -->
+  <section class="cta" data-aos="zoom-in">
+    <img src="<?= BASE_URL ?>public/images/empowering-lives-through-self-reliance.png" alt="Share your story" class="cta-bg">
     <div class="cta-content container">
-      <h2 class="text-light mb-3">Share Your Story With Us</h2>
-      <p class="text-light mb-4">Have an inspiring journey or insight to share? Join our blog contributors and empower others.</p>
-      <div class="btn-group">
-        <button class="btn btn-outline-light">Contact Us</button>
-        <button class="btn btn-light">Submit Story</button>
+      <h2 data-aos="fade-up" data-aos-delay="200">Your Story Matters</h2>
+      <p data-aos="fade-up" data-aos-delay="400">
+        Have you overcome challenges through education, employment, or entrepreneurship with WSR support?<br>
+        Inspire thousands by sharing your journey.
+      </p>
+      <div class="btn-group" data-aos="fade-up" data-aos-delay="600">
+        <a href="contact.php" class="btn btn-outline-light">Contact Us</a>
+        <a href="submit-story.php" class="btn btn-light">Submit Your Story</a>
       </div>
     </div>
   </section>
