@@ -132,7 +132,10 @@ img {
     margin-top: .4rem;
 }
 .main-nav a:hover { color: #111827; }
-
+.main-nav .submenu a {
+    margin-top: 0;
+    padding-top: 0;
+}
 /* DROPDOWN (mega-menu) */
 .dropdown {
     position: relative;
