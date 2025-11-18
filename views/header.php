@@ -22,7 +22,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="icon" href="<?= BASE_URL ?>/public/images/logo.png" type="image/x-icon">
-
+  <!-- In views/header.php, inside <head> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
   <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/styles.css">
 
   <script src="<?= BASE_URL ?>/public/js/main.js" defer></script>
@@ -165,3 +168,14 @@
       <a href="#learn" class="btn btn-primary mobile-cta">Learn</a>
     </nav>
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init({
+        duration: 800,
+        easing: 'cubic-bezier(0.4, 0, 0.2, 1)',
+        once: true,        // Animation happens only once
+        offset: 100
+      });
+    });
+  </script>
