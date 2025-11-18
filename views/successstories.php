@@ -58,7 +58,7 @@ $result = $conn->query($query);
                 <p class="blog-excerpt text-muted">
                   <?= substr(strip_tags($row['content']), 0, 140) ?>...
                 </p>
-                <a href="blog_view.php?slug=<?= urlencode($row['slug']) ?>" class="read-more">
+                <a href="<?=BASE_URL?>views/blog-view.php?slug=<?= urlencode($row['slug']) ?>" class="read-more">
                   Read the Full Story <span class="material-icons" style="font-size:1.1em;">arrow_right_alt</span>
                 </a>
               </div>
