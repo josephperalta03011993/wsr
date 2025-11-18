@@ -1,6 +1,6 @@
 
 <?php
-  define('BASE_URL', '/'); 
+  define('BASE_URL', '/public_html'); 
 ?>
 
 <!DOCTYPE html>
