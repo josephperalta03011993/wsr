@@ -115,9 +115,9 @@
         </div>
       </div>
 
-      <a href="/views/successstories.php">Success Stories</a>
-      <a href="/views/contacts.php">Contact Us</a>
-      <a href="/views/about.php">About Us</a>
+      <a href="<?= BASE_URL ?>/views/successstories.php">Success Stories</a>
+      <a href="<?= BASE_URL ?>/views/contacts.php">Contact Us</a>
+      <a href="<?= BASE_URL ?>/views/about.php">About Us</a>
     </nav>
 
     <!-- CTA BUTTON (desktop) -->
