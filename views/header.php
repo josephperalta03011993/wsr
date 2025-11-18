@@ -1,3 +1,8 @@
+
+<?php
+  define('BASE_URL', '/wsr'); 
+?>
+
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -16,18 +21,18 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="icon" href="../public/images/logo.png" type="image/x-icon">
+  <link rel="icon" href="<?= BASE_URL ?>/public/images/logo.png" type="image/x-icon">
 
-  <link rel="stylesheet" href="../public/css/styles.css">
+  <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/styles.css">
 
-  <script src="../public/js/main.js" defer></script>
+  <script src="<?= BASE_URL ?>/public/js/main.js" defer></script>
 </head>
 
 <body>
   <header class="site-header">
     <!-- LOGO -->
     <a href="/index.php" class="logo">
-      <img src="../public/images/logo.png" alt="WSR Logo"> <!-- need to figure out how to link this to index without duplicating -->
+      <img src="<?= BASE_URL ?>/public/images/logo.png" alt="WSR Logo"> <!-- need to figure out how to link this to index without duplicating -->
     </a>
 
     <!-- DESKTOP NAV -->
@@ -125,7 +130,7 @@
   <div class="mobile-drawer" aria-hidden="true">
     <div class="mobile-drawer-header">
       <a href="/index.php" class="logo mobile-logo">
-        <img src="../public/images/logo.png" alt="WSR Logo">
+        <img src="<?= BASE_URL ?>/public/images/logo.png" alt="WSR Logo">
       </a>
       <button class="mobile-close" aria-label="Close menu">
         <span class="material-icons">close</span>
