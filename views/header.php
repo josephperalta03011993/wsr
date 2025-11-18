@@ -1,6 +1,6 @@
 
 <?php
-  define('BASE_URL', '/public_html'); 
+  define('BASE_URL', '/https://www.wsrph.org/'); 
 ?>
 
 <!DOCTYPE html>
