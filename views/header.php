@@ -37,7 +37,7 @@
 
     <!-- DESKTOP NAV -->
     <nav class="main-nav desktop-only" aria-label="Primary navigation">
-      <a href="/index.php">Home</a>
+      <a href="<?= BASE_URL ?>/index.php">Home</a>
 
       <!-- Programs & Services Mega-menu -->
       <div class="dropdown">
@@ -138,7 +138,7 @@
     </div>
 
     <nav class="mobile-nav" aria-label="Mobile navigation">
-      <a href="/index.php" class="mobile-nav-link">Home</a>
+      <a href="<?= BASE_URL ?>/index.php" class="mobile-nav-link">Home</a>
 
       <!-- Mobile Accordion for Programs & Services -->
       <div class="mobile-accordion">
