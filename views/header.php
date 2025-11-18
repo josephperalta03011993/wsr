@@ -41,7 +41,7 @@
 
     <!-- DESKTOP NAV -->
     <nav class="main-nav desktop-only" aria-label="Primary navigation">
-      <a href="<?= BASE_URL ?>/index.php">Home</a>
+      <a href="<?= BASE_URL ?>">Home</a>
 
       <!-- Programs & Services Mega-menu -->
       <div class="dropdown">
