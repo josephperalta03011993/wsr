@@ -13,13 +13,13 @@
           style="background-image: url('<?= BASE_URL ?>/public/images/slider-2.png');">
         </div>
         <div class="carousel-slide"
-          style="background-image: url(''<?= BASE_URL ?>/public/images/slider-3.png');">
+          style="background-image: url('<?= BASE_URL ?>/public/images/slider-3.png');">
         </div>
         <div class="carousel-slide"
-          style="background-image: url(''<?= BASE_URL ?>/public/images/slider-4.png');">
+          style="background-image: url('<?= BASE_URL ?>/public/images/slider-4.png');">
         </div>
         <div class="carousel-slide"
-          style="background-image: url(''<?= BASE_URL ?>/public/images/slider-5.png');">
+          style="background-image: url('<?= BASE_URL ?>/public/images/slider-5.png');">
         </div>
 
         <button class="carousel-btn prev">&#10094;</button>
