@@ -1,6 +1,6 @@
 
 <?php
-  define('BASE_URL', '/wsr'); 
+  define('BASE_URL', '/'); 
 ?>
 
 <!DOCTYPE html>
