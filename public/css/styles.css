@@ -52,9 +52,79 @@ body {
     cursor: pointer;
     z-index: 2;
 }
-.carousel-btn:hover { background: rgba(255,255,255,.9); }
-.carousel-btn.prev  { left: 1rem; }
-.carousel-btn.next  { right: 1rem; }
+/* -------------------------------------------------
+   CAROUSEL NAVIGATION BUTTONS – Premium UX
+   ------------------------------------------------- */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 56px;
+    height: 56px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);              /* Glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    user-select: none;
+    outline: none;
+}
+
+/* Position */
+.carousel-btn.prev { left: 1.5rem; }
+.carousel-btn.next { right: 1.5rem; }
+
+/* Hover & Active States */
+.carousel-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-50%) scale(1.15);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-btn:active {
+    transform: translateY(-50%) scale(1.05);
+    transition: transform 0.1s;
+}
+
+/* Subtle pulse animation on first load (optional but nice) */
+.carousel-btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    opacity: 0;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%   { transform: scale(0.9); opacity: 0; }
+    50%  { opacity: 0.4; }
+    100% { transform: scale(1.6); opacity: 0; }
+}
+
+/* Mobile: smaller buttons + closer to edge */
+@media (max-width: 767px) {
+    .carousel-btn {
+        width: 48px;
+        height: 48px;
+        font-size: 1.6rem;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .carousel-btn.prev  { left: 0.75rem; }
+    .carousel-btn.next  { right: 0.75rem; }
+    .carousel-btn::after { display: none; } /* too subtle on mobile */
+}
 
 .carousel-indicators {
     position: absolute;
