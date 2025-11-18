@@ -7,19 +7,19 @@
     <section class="hero-carousel">
       <div class="carousel-container">
         <div class="carousel-slide active"
-          style="background-image: url('https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/557719747_1323642946108184_2481558595214422262_n.png?_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_ohc=4nyCZM0AalUQ7kNvwGEzwI3&_nc_oc=Adl65lkcRL0bb0NbYOGFEphvcmT97onXvzP-wwrM4_1Otet1dpFVsSgwv52ed9PMLCU&_nc_zt=23&_nc_ht=scontent.fmnl25-1.fna&oh=03_Q7cD3gGT1CKfZ8OBOz0X9WcQvrmdyFIqbvE_sshRl6h0xVkafQ&oe=69173AC6');">
+          style="background-image: url('<?= BASE_URL ?>/public/images/slider-1.png');">
         </div>
         <div class="carousel-slide"
-          style="background-image: url('https://scontent.fmnl25-5.fna.fbcdn.net/v/t1.15752-9/565041200_833620082474337_5389071805627715672_n.png?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_ohc=oDF3uEkuFa4Q7kNvwFolS1S&_nc_oc=AdljpsD96IO1NPMzCP-IMBhNNbTjb47WatUidrh5dqGocC0TTfN_ZserH7OY3fIH6so&_nc_zt=23&_nc_ht=scontent.fmnl25-5.fna&oh=03_Q7cD3gFiXFzYZsOiY2MB6XnaD4eLo3clXg5NBzavgcVaujR-Pw&oe=69173A1E');">
+          style="background-image: url('<?= BASE_URL ?>/public/images/slider-2.png');">
         </div>
         <div class="carousel-slide"
-          style="background-image: url('https://scontent.fmnl25-8.fna.fbcdn.net/v/t1.15752-9/553943792_1818853022326768_2633785652949097446_n.png?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=qrqX7aAxGuUQ7kNvwF35PbU&_nc_oc=Adl416i7Rg4kK4VNtImFCerjCkTfPUoTT9aYRiNHkU0-0PHxuzhzndVsLYLGprv8suU&_nc_zt=23&_nc_ht=scontent.fmnl25-8.fna&oh=03_Q7cD3gFF4qfQ6K1HYDM1V8a4p1SNovkiijhyPdo6auJ79pshSQ&oe=69171F47');">
+          style="background-image: url(''<?= BASE_URL ?>/public/images/slider-3.png');">
         </div>
         <div class="carousel-slide"
-          style="background-image: url('https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.15752-9/554212333_755210314245092_7523627676252575029_n.png?_nc_cat=101&ccb=1-7&_nc_sid=9f807c&_nc_ohc=RBbZeQA89IAQ7kNvwHPsEuM&_nc_oc=AdlS1Bi73vWarY4dmnMa3WgM41IZ2vtmLt8xUQAYP-OpTuvzQdci6Z4fBWrA3_aQqOg&_nc_zt=23&_nc_ht=scontent.fmnl25-3.fna&oh=03_Q7cD3gELNQNitosbr-mpf0oEJZQRgPMsOeGRK6ecOebPLo89Fw&oe=691737A9');">
+          style="background-image: url(''<?= BASE_URL ?>/public/images/slider-4.png');">
         </div>
         <div class="carousel-slide"
-          style="background-image: url('https://scontent.fmnl25-5.fna.fbcdn.net/v/t1.15752-9/565973837_3327016340807352_7131753999055005202_n.png?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_ohc=Hf1COsEG2QoQ7kNvwFsJpJO&_nc_oc=AdlvlU2VbItNBXLS-vpkQ_QoSuflUgOEDGibL9LlfdD4SrrRE4RrWSSVt47iRiM7VE8&_nc_zt=23&_nc_ht=scontent.fmnl25-5.fna&oh=03_Q7cD3gEPzE4Nmx7x6PDM9nntE08mkfvtQXTS5i_IVlqEBWX2MQ&oe=69171B35');">
+          style="background-image: url(''<?= BASE_URL ?>/public/images/slider-5.png');">
         </div>
 
         <button class="carousel-btn prev">&#10094;</button>
@@ -69,7 +69,7 @@
     <section class="news">
       <div class="section-header">
         <p class="subtitle">Updates</p>
-        <h2>Latest News and Insights</h2>
+        <h2>Latest Updates and Events</h2>
         <p>Stay informed about our latest programs and initiatives.</p>
       </div>
       <div class="grid">
@@ -85,7 +85,7 @@
         <div class="news-card">
           <img src="https://i.pinimg.com/736x/06/51/2c/06512c71b581284a6c2de6cdc12a2446.jpg" alt="">
           <div class="card-body">
-            <p class="subtitle">Updates</p>
+            <p class="subtitle">Success Stories</p>
             <h3>Inspiring Success Stories</h3>
             <p>Be inspired by the achievements of our members.</p>
             <a href="../wsr/views/successstories.php">Read more &gt;</a>
