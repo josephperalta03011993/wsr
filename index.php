@@ -34,14 +34,14 @@
     <div class="grid">
       <div class="card" data-aos="fade-up" data-aos-delay="100">
         <span class="material-icons">explore</span>
-        <h3>WSR Toolbox</h3>
+        <h3>WSR Products & Services</h3>
         <p>Discover a range of programs designed to uplift and support our values.</p>
         <a href="#">Learn More →</a>
       </div>
       <div class="card" data-aos="fade-up" data-aos-delay="200">
         <span class="material-icons">school</span>
         <h3>Self-Reliance Courses</h3>
-        <p>We provide resources and diverse educational offerings tailored for success.</p>
+        <p>Self-reliance courses are structured learning programs designed to help individuals become more capable of meeting their own needs and improving their quality of life. </p>
         <a href="#">Sign Up →</a>
       </div>
       <div class="card" data-aos="fade-up" data-aos-delay="300">
@@ -99,7 +99,7 @@
     <img src="https://i.pinimg.com/736x/c6/9e/22/c69e2246df9dd5a3a0ad078271ed2140.jpg" alt="Get Involved" class="cta-bg">
     <div class="cta-content">
       <h2 data-aos="fade-up" data-aos-delay="400">Get Involved with WSR Today</h2>
-      <p data-aos="fade-up" data-aos-delay="600">By empowering communities through welfare and self-reliance programs, your support makes a difference!</p>
+      <p data-aos="fade-up" data-aos-delay="600">Apply as Senior Service Missionary for Family Services, Employment Services, Humanitarian, Education, and other support for the Welfare and Self-Reliance Services.</p>
       <div class="btn-group" data-aos="fade-up" data-aos-delay="800">
         <a href="#" class="btn btn-outline-light">Contact</a>
         <a href="#" class="btn btn-light">Join</a>
