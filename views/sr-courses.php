@@ -63,7 +63,7 @@
           <img src="<?= BASE_URL ?>/public/images/slider-5.png" alt="EnglishConnect class" width="195" height="130" loading="lazy" style="object-fit: cover;">
           <img src="<?= BASE_URL ?>/public/images/slider-6.png" alt="Financial planning session" width="195" height="130" loading="lazy" style="object-fit: cover;">
           <img src="<?= BASE_URL ?>/public/images/slider-7.png" alt="Business planning group" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-8.png" alt="Youth self-reliance activity" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Youth self-reliance activity" width="195" height="130" loading="lazy" style="object-fit: cover;">
 
           <!-- Duplicate set (exact same as above) -->
           <img src="<?= BASE_URL ?>/public/images/slider-1.png" alt="Self-Reliance group meeting" width="195" height="130" loading="lazy" style="object-fit: cover;">
@@ -73,7 +73,7 @@
           <img src="<?= BASE_URL ?>/public/images/slider-5.png" alt="EnglishConnect class" width="195" height="130" loading="lazy" style="object-fit: cover;">
           <img src="<?= BASE_URL ?>/public/images/slider-6.png" alt="Financial planning session" width="195" height="130" loading="lazy" style="object-fit: cover;">
           <img src="<?= BASE_URL ?>/public/images/slider-7.png" alt="Business planning group" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-8.png" alt="Youth self-reliance activity" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Youth self-reliance activity" width="195" height="130" loading="lazy" style="object-fit: cover;">
         </div>
       </div>
 
