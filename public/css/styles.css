@@ -183,7 +183,6 @@ img {
 .mobile-logo img {
     height: 44px;
     width: auto;
-    filter: brightness(30%);
 }
 
 /* ---------- DESKTOP NAV ---------- */
@@ -943,89 +942,118 @@ img {
     .scrolling-gallery::after { width: 60px; }
 }
 
-/* -------------------------------------------------
-   THUMBNAIL AUTO-SCROLLER – Final Clean Version (Recommended)
-   ------------------------------------------------- */
+/* ===============================================
+   THUMBNAIL AUTO-SCROLLER 
+   =============================================== */
 .thumbnail-scroller {
     overflow: hidden;
     width: 100%;
-    padding: 50px 0;                     /* nice breathing room */
-    background: #f8f9fa;                 /* matches your site perfectly */
+    padding: 60px 0;
+    background: #f8f9fa;
     position: relative;
+    user-select: none;
 }
 
-/* Soft fade edges – premium look */
+/* Fade edges – premium look */
 .thumbnail-scroller::before,
 .thumbnail-scroller::after {
     content: '';
     position: absolute;
     top: 0;
-    width: 120px;
+    width: 150px;
     height: 100%;
     z-index: 2;
     pointer-events: none;
 }
 .thumbnail-scroller::before {
     left: 0;
-    background: linear-gradient(to right, #f8f9fa, transparent);
+    background: linear-gradient(to right, #f8f9fa 0%, transparent 100%);
 }
 .thumbnail-scroller::after {
     right: 0;
-    background: linear-gradient(to left, #f8f9fa, transparent);
+    background: linear-gradient(to left, #f8f9fa 0%, transparent 100%);
 }
 
+/* THE ONLY .thumbnail-track rule – this is what makes it work perfectly */
 .thumbnail-track {
-    display: flex;
-    gap: 18px;
-    animation: scrollThumbnails 85s linear infinite;
-    padding: 10px 0;                     /* prevents clipping on hover lift */
+    display: flex !important;
+    flex-direction: row !important;     /* ← This was being overridden */
+    flex-wrap: nowrap !important;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    width: max-content !important;
+    min-width: 210% !important;
+    white-space: nowrap !important;
+    animation: scrollThumbnails 80s linear infinite !important;
+    animation-delay: -1s !important;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translateZ(0);
 }
 
+/* Thumbnails styling */
 .thumbnail-track img {
-    height: 120px;
-    width: 180px;                   /* keeps natural aspect ratio */
+    max-width: none !important;
+    width: 195px !important;
+    height: 130px !important;
     object-fit: cover;
-    border-radius: 14px;
-    flex-shrink: 0;
-    border: 4px solid #ffffff;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 16px;
+    border: 5px solid #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    flex-shrink: 0 !important;
+    background: #fff;
+    transition: all 0.45s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Beautiful hover effect */
+/* Hover effect – feels premium */
 .thumbnail-track img:hover {
-    transform: translateY(-10px) scale(1.06);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-    z-index: 3;
+    transform: translateY(-12px) scale(1.05);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.22);
     border-color: #e5e7eb;
+    z-index: 10;
 }
 
-/* Infinite smooth scroll */
+/* Seamless infinite scroll */
 @keyframes scrollThumbnails {
     0%   { transform: translateX(0); }
     100% { transform: translateX(-50%); }
 }
 
-/* Pause when user hovers – great for accessibility */
+/* Pause on hover */
 .thumbnail-scroller:hover .thumbnail-track {
     animation-play-state: paused;
 }
 
-/* Mobile perfection */
+/* Mobile optimizations */
 @media (max-width: 768px) {
     .thumbnail-scroller {
-        padding: 35px 0;
+        padding: 40px 0;
     }
     .thumbnail-scroller::before,
     .thumbnail-scroller::after {
-        width: 60px;
+        width: 80px;
     }
     .thumbnail-track {
-        gap: 14px;
+        gap: 16px;
     }
     .thumbnail-track img {
-        height: 95px;
-        border-width: 3px;
+        height: 100px;
+        width: 150px;
+        border-width: 4px;
         border-radius: 12px;
+    }
+    .thumbnail-track img:hover {
+        transform: translateY(-8px) scale(1.04);
+    }
+}
+
+@media (max-width: 480px) {
+    .thumbnail-track img {
+        height: 90px;
+        width: 135px;
+    }
+    .thumbnail-track {
+        gap: 12px;
     }
 }

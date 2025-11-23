@@ -1,7 +1,7 @@
 
 <?php
-  define('BASE_URL', 'https://www.wsrph.org/'); 
-  //define('BASE_URL', '/wsr/'); 
+  //define('BASE_URL', 'https://www.wsrph.org/'); 
+  define('BASE_URL', '/wsr/'); 
 ?>
 
 <!DOCTYPE html>
@@ -36,7 +36,7 @@
   <header class="site-header">
     <!-- LOGO -->
     <a href="/index.php" class="logo">
-      <img src="<?= BASE_URL ?>/public/images/logo.png" alt="WSR Logo"> <!-- need to figure out how to link this to index without duplicating -->
+      <img src="<?= BASE_URL ?>public/images/logo.png" alt="WSR Logo"> <!-- need to figure out how to link this to index without duplicating -->
     </a>
 
     <!-- DESKTOP NAV -->
@@ -61,7 +61,7 @@
           <!-- Self-reliance Courses -->
           <div class="submenu">
             <strong>Self-reliance Courses</strong>
-            <a href="/views/self-reliance.php">Courses (all)</a>
+            <a href="<?=  BASE_URL ?>views/sr-courses.php">Courses (all)</a>
             <a href="/views/self-reliance.php#courses">Courses</a>
             <a href="/views/self-reliance-manuals.php">Download Manuals</a>
 
