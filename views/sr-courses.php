@@ -52,31 +52,31 @@
         </h3>
       </div>
 
+      <!-- Main scroller container -->
       <div class="thumbnail-scroller">
         <div class="thumbnail-track">
           <!-- First set -->
-          <img src="<?= BASE_URL ?>/public/images/slider-1.png" alt="Self-Reliance group meeting">
-          <img src="<?= BASE_URL ?>/public/images/slider-2.png" alt="Members learning together">
-          <img src="<?= BASE_URL ?>/public/images/slider-3.png" alt="Job skills workshop">
-          <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Graduation celebration">
-          <img src="<?= BASE_URL ?>/public/images/slider-5.png" alt="EnglishConnect class">
-          <img src="<?= BASE_URL ?>/public/images/slider-6.png" alt="Financial planning session">
-          <img src="<?= BASE_URL ?>/public/images/slider-7.png" alt="Business planning group">
-          <img src="<?= BASE_URL ?>/public/images/slider-8.png" alt="Youth self-reliance activity">
+          <img src="<?= BASE_URL ?>/public/images/slider-1.png" alt="Self-Reliance group meeting" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-2.png" alt="Members learning together" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-3.png" alt="Job skills workshop" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Graduation celebration" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-5.png" alt="EnglishConnect class" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-6.png" alt="Financial planning session" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-7.png" alt="Business planning group" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Youth self-reliance activity" width="195" height="130" loading="lazy" style="object-fit: cover;">
 
-          <!-- Duplicate set for seamless infinite loop -->
-          <img src="<?= BASE_URL ?>/public/images/slider-1.png" alt="Self-Reliance group meeting">
-          <img src="<?= BASE_URL ?>/public/images/slider-2.png" alt="Members learning together">
-          <img src="<?= BASE_URL ?>/public/images/slider-3.png" alt="Job skills workshop">
-          <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Graduation celebration">
-          <img src="<?= BASE_URL ?>/public/images/slider-5.png" alt="EnglishConnect class">
-          <img src="<?= BASE_URL ?>/public/images/slider-6.png" alt="Financial planning session">
-          <img src="<?= BASE_URL ?>/public/images/slider-7.png" alt="Business planning group">
-          <img src="<?= BASE_URL ?>/public/images/slider-8.png" alt="Youth self-reliance activity">
+          <!-- Duplicate set (exact same as above) -->
+          <img src="<?= BASE_URL ?>/public/images/slider-1.png" alt="Self-Reliance group meeting" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-2.png" alt="Members learning together" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-3.png" alt="Job skills workshop" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Graduation celebration" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-5.png" alt="EnglishConnect class" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-6.png" alt="Financial planning session" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-7.png" alt="Business planning group" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Youth self-reliance activity" width="195" height="130" loading="lazy" style="object-fit: cover;">
         </div>
       </div>
-      
-    </div>
+
   </section>
 </main>
 
