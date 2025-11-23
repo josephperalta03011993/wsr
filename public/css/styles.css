@@ -882,14 +882,6 @@ img {
 /* -------------------------------------------------
    AUTO-SCROLLING PHOTO GALLERY – Final Version
    ------------------------------------------------- */
-.scrolling-gallery {
-    overflow: hidden;
-    width: 100%;
-    padding: 60px 0;                     /* more breathing room */
-    background: #f8f9fa;                 /* light gray – matches your site */
-    position: relative;
-}
-
 /* Soft fade on left & right edges – looks premium */
 .scrolling-gallery::before,
 .scrolling-gallery::after {

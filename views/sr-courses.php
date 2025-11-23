@@ -75,6 +75,7 @@
           <img src="<?= BASE_URL ?>/public/images/slider-8.png" alt="Youth self-reliance activity">
         </div>
       </div>
+      
     </div>
   </section>
 </main>
