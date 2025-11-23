@@ -5,13 +5,13 @@
       </section>
       <nav class="footer-nav">
         <a href="#">Contact Us</a>
-        <a href="#">Join Group</a>
-        <a href="#">Latest News</a>
+        <a href="https://quickreg.churchofjesuschrist.org/" target="_blank">Join Group</a>
+        <a href="https://newsroom.churchofjesuschrist.org/" target="_blank">Latest News</a>
         <a href="#">Help Center</a>
         <a href="#">Success Stories</a>
       </nav>
       <div class="socials">
-        <a href="#"><span class="material-icons">facebook</span></a>
+        <a href="https://www.facebook.com/groups/549825222915998" target="_blank"><span class="material-icons">facebook</span></a>
         <a href="#"><span class="material-icons">camera_alt</span></a>
         <a href="#"><span class="material-icons">cloud</span></a>
         <a href="#"><span class="material-icons">ondemand_video</span></a>

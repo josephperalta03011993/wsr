@@ -51,25 +51,27 @@
         </button>
 
         <div class="mega-menu">
-          <!-- SWG -->
+          <!-- Self-Reliance Courses, QuickReg, and SWG -->
+          
           <div class="submenu">
-            <strong>Specialized Working Groups (SWG)</strong>
-            <a href="/views/swg-how-to-organize.php">How to organize</a>
-            <a href="/views/swg-roles.php">Roles and Responsibilities</a>
-          </div>
-
-          <!-- Self-reliance Courses -->
-          <div class="submenu">
-            <strong>Self-reliance Courses</strong>
-            <a href="/views/self-reliance.php">Courses (all)</a>
-            <a href="/views/self-reliance.php#courses">Courses</a>
-            <a href="/views/self-reliance-manuals.php">Download Manuals</a>
+            
+            <a href="<?= BASE_URL ?>views/sr-courses.php"><strong>Self-Reliance Courses</strong></a>
+            <a href="/views/sr-courses.php">Courses (all)</a>
+            <a href="/views/sr-courses.php#courses">Courses</a>
+            <a href="/views/sr-courses-manuals.php">Download Manuals</a>
 
             <strong style="margin-top:0.75rem;display:block;">QuickReg Registration</strong>
-            <a href="/views/quickreg-group.php">Register a Group</a>
-            <a href="/views/quickreg-conclude.php">Conclude a Group</a>
-            <a href="/views/quickreg-certs.php">Print Certificates</a>
-            <a href="/views/quickreg-share.php">Share success stories</a>
+            <a href="https://www.englishconnect.org/quickreg-flyer.pdf" target="_blank">Register a Group</a>
+            <a href="https://rise.articulate.com/share/ysgluWwHqiOEzsAucmyE5LVFZM4aiCST#/lessons/3LUufScqZQJzTTqLemK6jPQFIdDccYpK" target="_blank">Conclude a Group</a>
+            <a href="https://rise.articulate.com/share/ysgluWwHqiOEzsAucmyE5LVFZM4aiCST#/lessons/3LUufScqZQJzTTqLemK6jPQFIdDccYpK" target="_blank">Print Certificates</a>
+            <a href="https://rise.articulate.com/share/ysgluWwHqiOEzsAucmyE5LVFZM4aiCST" target="_blank">QuickReg 2.0 Training</a>
+            <a href="https://rise.articulate.com/share/ysgluWwHqiOEzsAucmyE5LVFZM4aiCST#/lessons/TI33XWkbb0Zsey4frFS0O1C_tQMi1l3T" target="_blank">Frequently Asked Questions</a>
+            <!--<a href="/views/quickreg-share.php">Share success stories</a> -->
+
+            <a href="<?= BASE_URL ?>views/swg.php"><strong>Specialized Working Groups</strong></a>
+            <a href="/views/swg-how-to-organize.php">How to Organize</a>
+            <a href="/views/swg-roles.php">Roles and Responsibilities</a>
+          
           </div>
 
           <!-- Education Services -->
@@ -93,6 +95,16 @@
             <a href="/views/education-success.php">Success Stories</a>
           </div>
 
+          <!-- Family Services -->
+          <div class="submenu">
+            <a href="<?= BASE_URL ?>views/family-services.php"><strong>Family Services</strong></a>
+            <a href="/views/fs_cosultation.php">Consultation</a>
+            <a href="/views/self-reliance.php#courses">Addiction Recovery Support Groups</a>
+            <a href="/views/self-reliance-manuals.php">Courses</a>
+            <a href="/views/self-reliance-manuals.php">Online Resources</a>
+          </div>
+
+          
           <!-- Employment Services -->
           <div class="submenu">
             <strong>Employment Services</strong>
