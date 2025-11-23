@@ -878,3 +878,162 @@ img {
     .blog-hero-single .hero-text h1 { font-size: 2.6rem; }
     .blog-content .content-text { font-size: 1.1rem; }
 }
+
+/* -------------------------------------------------
+   AUTO-SCROLLING PHOTO GALLERY – Final Version
+   ------------------------------------------------- */
+.scrolling-gallery {
+    overflow: hidden;
+    width: 100%;
+    padding: 60px 0;                     /* more breathing room */
+    background: #f8f9fa;                 /* light gray – matches your site */
+    position: relative;
+}
+
+/* Soft fade on left & right edges – looks premium */
+.scrolling-gallery::before,
+.scrolling-gallery::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+.scrolling-gallery::before {
+    left: 0;
+    background: linear-gradient(to right, #f8f9fa, transparent);
+}
+.scrolling-gallery::after {
+    right: 0;
+    background: linear-gradient(to left, #f8f9fa, transparent);
+}
+
+.scrolling-track {
+    display: flex;
+    gap: 28px;                           /* slightly more spacing */
+    animation: scrollLeftToRight 70s linear infinite;  /* slower = more peaceful */
+}
+
+.scrolling-track img {
+    height: 240px;                       /* a bit taller – looks better */
+    width: auto;
+    object-fit: cover;
+    border-radius: 18px;
+    flex-shrink: 0;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    transition: transform 0.4s ease;
+}
+
+.scrolling-track img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.18);
+}
+
+/* Smooth infinite loop */
+@keyframes scrollLeftToRight {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Pause on hover – excellent UX */
+.scrolling-gallery:hover .scrolling-track {
+    animation-play-state: paused;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .scrolling-gallery { padding: 40px 0; }
+    .scrolling-track img { height: 180px; border-radius: 14px; }
+    .scrolling-track { gap: 16px; }
+    .scrolling-gallery::before,
+    .scrolling-gallery::after { width: 60px; }
+}
+
+/* -------------------------------------------------
+   THUMBNAIL AUTO-SCROLLER – Final Clean Version (Recommended)
+   ------------------------------------------------- */
+.thumbnail-scroller {
+    overflow: hidden;
+    width: 100%;
+    padding: 50px 0;                     /* nice breathing room */
+    background: #f8f9fa;                 /* matches your site perfectly */
+    position: relative;
+}
+
+/* Soft fade edges – premium look */
+.thumbnail-scroller::before,
+.thumbnail-scroller::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+.thumbnail-scroller::before {
+    left: 0;
+    background: linear-gradient(to right, #f8f9fa, transparent);
+}
+.thumbnail-scroller::after {
+    right: 0;
+    background: linear-gradient(to left, #f8f9fa, transparent);
+}
+
+.thumbnail-track {
+    display: flex;
+    gap: 18px;
+    animation: scrollThumbnails 85s linear infinite;
+    padding: 10px 0;                     /* prevents clipping on hover lift */
+}
+
+.thumbnail-track img {
+    height: 120px;
+    width: 180px;                   /* keeps natural aspect ratio */
+    object-fit: cover;
+    border-radius: 14px;
+    flex-shrink: 0;
+    border: 4px solid #ffffff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Beautiful hover effect */
+.thumbnail-track img:hover {
+    transform: translateY(-10px) scale(1.06);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    z-index: 3;
+    border-color: #e5e7eb;
+}
+
+/* Infinite smooth scroll */
+@keyframes scrollThumbnails {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Pause when user hovers – great for accessibility */
+.thumbnail-scroller:hover .thumbnail-track {
+    animation-play-state: paused;
+}
+
+/* Mobile perfection */
+@media (max-width: 768px) {
+    .thumbnail-scroller {
+        padding: 35px 0;
+    }
+    .thumbnail-scroller::before,
+    .thumbnail-scroller::after {
+        width: 60px;
+    }
+    .thumbnail-track {
+        gap: 14px;
+    }
+    .thumbnail-track img {
+        height: 95px;
+        border-width: 3px;
+        border-radius: 12px;
+    }
+}

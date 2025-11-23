@@ -1,6 +1,7 @@
 <?php
 include_once('header.php');
 include_once(__DIR__ . '/../config/database.php');
+//include_once(__DIR__ . '/../../config/database.php'); 
 
 $slug = $_GET['slug'] ?? '';
 $stmt = $conn->prepare("SELECT * FROM blogs WHERE slug = ? AND status = 'published' LIMIT 1");
