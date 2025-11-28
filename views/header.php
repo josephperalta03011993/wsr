@@ -1,7 +1,7 @@
 
 <?php
-  define('BASE_URL', 'https://www.wsrph.org/'); 
-  //define('BASE_URL', '/wsr/'); 
+  //define('BASE_URL', 'https://www.wsrph.org/'); 
+  define('BASE_URL', '/wsr/'); 
 ?>
 
 <!DOCTYPE html>
@@ -56,7 +56,7 @@
           <div class="submenu">
             
             <a href="<?= BASE_URL ?>views/sr-courses.php"><strong>Self-Reliance Courses</strong></a>
-            <a href="/views/sr-courses.php">Courses (all)</a>
+            <a href="<?= BASE_URL ?>views/sr-courses.php">Courses (all)</a>
             <a href="/views/sr-courses.php#courses">Courses</a>
             <a href="/views/sr-courses-manuals.php">Download Manuals</a>
 
