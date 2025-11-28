@@ -226,7 +226,6 @@ img {
 .mobile-logo img {
     height: 44px;
     width: auto;
-    filter: brightness(30%);
 }
 
 /* ---------- DESKTOP NAV ---------- */
@@ -582,6 +581,7 @@ img {
 
 .card {
     text-align: left;
+    padding: 2rem;
 }
 
 .card span.material-icons,
