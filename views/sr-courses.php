@@ -41,6 +41,40 @@
       </div>
     </div>
 
+    <p></p>
+    <div class="grid">
+          <!-- Your 2nd three main course cards -->
+      <div class="news-card" data-aos="fade-left" data-aos-delay="100">
+        <img src="https://assets.ldscdn.org/97/3a/973a895dd96f9a76160fe5578da8c2f22a6b9e5c/logos_self_reliant_service_business.jpeg" alt="Starting and Growing My Business">
+        <div class="card-body">
+          <p class="subtitle">SR Courses - Starting and Growing My Business</p>
+          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/starting-and-growing-my-business?lang=eng" target="_blank">Starting and Growing My Business</a></h3>
+          <p>The goal of this group is not only to help you with your business; it is also to help you act in greater obedience and faith in the Lord and receive His promised blessings of temporal and spiritual self-reliance. </p>
+          <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
+        </div>
+      </div>
+
+      <div class="news-card" data-aos="fade-up" data-aos-delay="200">
+        <img src="https://assets.ldscdn.org/93/60/936020b50029b5a34a14c726e0bb5d5f7f8b52b7/cover_art.png" alt="Emotional Resilience">
+        <div class="card-body">
+          <p class="subtitle">SR Courses - Emotional Resilience</p>
+          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/emotional-resilience-self-reliance-course-video-resources?lang=eng" target="_blank">Emotional Resilience</a></h3>
+          <p>To help individuals develop emotional resilience by relying on faith, scripture, and divine guidance.</p>
+          <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
+        </div>
+      </div>
+
+      <div class="news-card" data-aos="fade-right" data-aos-delay="100">
+        <img src="https://assets.ldscdn.org/83/93/839353a4663543ab865b04a1486171d4132765a0/englishconnect_learners.jpeg" alt="EnglishConnect">
+        <div class="card-body">
+          <p class="subtitle">SR Courses - EnglishConnect</p>
+          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/englishconnect?lang=eng" target="_blank">EnglishConnect</a></h3>
+          <p>EnglishConnect brings together English language learners, instructors, volunteers, and Church leaders to create an English learning program for all of God‘s children.</p>
+          <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
+        </div>
+      </div>
+    </div>
+
     <!-- THUMBNAIL SCROLLER WITH TITLE -->
     <div class="center" data-aos="fade-up" data-aos-delay="300">
       <div style="margin-bottom: 2rem;">
