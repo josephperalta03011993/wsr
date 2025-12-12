@@ -261,6 +261,7 @@ img {
 /* DROPDOWN (mega-menu) */
 .dropdown {
     position: relative;
+    display: inline-block;
 }
 
 .dropdown-toggle {
@@ -289,9 +290,9 @@ img {
 .dropdown-toggle[aria-expanded="true"] .material-icons {
     transform: rotate(180deg);
 }
-
+/* 
 /* Mega-menu */
-.mega-menu {
+/*.mega-menu {
     position: absolute;
     top: calc(100% + .7rem);
     left: 130%;
@@ -307,31 +308,57 @@ img {
     opacity: 0;
     visibility: hidden;
     transition: opacity .25s, visibility .25s;
+} */
+
+/* Leaders main menu container */
+.leaders-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 260px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 999;
 }
 
-.dropdown:hover>.mega-menu,
-.dropdown:focus-within>.mega-menu {
-    opacity: 1;
-    visibility: visible;
+.submenu {
+    padding: 6px 0;
 }
 
-.submenu strong {
-    display: block;
-    margin-bottom: .5rem;
+.submenu-title {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
     color: #1f2937;
-    font-size: .95rem;
+    cursor: pointer;
+    padding: 6px 0;
 }
 
-.submenu a {
-    display: block;
-    padding: .35rem 0;
-    color: #4b5563;
+.submenu-panel {
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column;
+    overflow: hidden; /* smoother collapse */
+}
+
+.submenu-panel a {
+    font-size: 14px;
+    padding: 4px 0;
+    color: #333;
     text-decoration: none;
-    font-size: .9rem;
+    cursor: pointer;
 }
 
-.submenu a:hover {
-    color: #991b1b;
+.submenu-panel a:hover {
+    color: #2563eb;
+}
+
+[x-cloak] { 
+    display: none !important; 
 }
 
 /* CTA BUTTON */
