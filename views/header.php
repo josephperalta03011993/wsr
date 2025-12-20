@@ -45,13 +45,29 @@
       <a href="<?= BASE_URL ?>">Home</a>
 
       <!-- Programs & Services Mega-menu -->
-      <div class="dropdown">
-        <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
-          Programs & Services
+      <div class="dropdown" x-data="{ menuOpen: false, openSection: null}">
+        <button class="dropdown-toggle" 
+                @click="menuOpen = !menuOpen"
+                aria-haspopup="true" 
+                :aria-expanded="menuOpen">
+            Programs & Services
           <span class="material-icons">expand_more</span>
         </button>
 
-        
+        <!-- Programs & Services submenu -->
+        <div class="leaders-menu" x-show="menuOpen" x-transition x-cloak>
+          <!-- Self-Reliance Courses -->  
+          <div class="submenu">
+            <button class="submenu-title"
+                    @click="openSection = openSection === 'swg' ? null : 'swg'">
+              Self-Reliance Courses
+            </button>
+            <div class="submenu-panel" x-show="openSection === 'swg'" x-transition x-cloak>
+              <a href="<?= BASE_URL ?>views/swg.php">Courses</a>
+              <a href="/views/swg-how-to-organize.php">Download Manuals</a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <a href="<?= BASE_URL ?>views/successstories.php">Success Stories</a>
@@ -62,7 +78,7 @@
                 @click="menuOpen = !menuOpen"
                 aria-haspopup="true"
                 :aria-expanded="menuOpen">
-          Leaders Resources
+            Leaders Resources
           <span class="material-icons">expand_more</span>
         </button>
 
@@ -96,7 +112,6 @@
               <a href="https://rise.articulate.com/share/..." target="_blank">FAQs</a>
             </div>
           </div>
-
         </div>
       </div>
 
