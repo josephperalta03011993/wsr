@@ -3,7 +3,6 @@
 <main>
   <section class="news">
     <div class="section-header" data-aos="fade-up">
-      <p class="subtitle">Programs</p>
       <h2>Self-Reliance Courses</h2>
       <p>Learn about the Self-Reliance courses that may help you today. Start your self-reliance path by joining a group within your stake or district.</p>
     </div>
@@ -12,8 +11,18 @@
       <!-- Your three main course cards -->
       <div class="news-card" data-aos="fade-left" data-aos-delay="100">
         <img src="https://assets.ldscdn.org/5e/09/5e09d20caaa680f6e7305eb4c833f7839e1bf42d/personal_finances_self_reliance.jpeg" alt="Personal Finances">
+        <button class="toggle-btn">View details</button>
         <div class="card-body">
-          <p class="subtitle">SR Courses - Finances</p>
+          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/personal-finances?lang=eng" target="_blank">Personal Finances for Self-Reliance</a></h3>
+          <p>For those who want better control over their finances. Group members will learn how to eliminate debt, protect against financial hardship, and invest in the future. Spouses are encouraged to attend together.</p>
+          <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
+        </div>
+      </div>
+
+      <div class="news-card" data-aos="fade-left" data-aos-delay="100">
+        <img src="https://assets.ldscdn.org/5e/09/5e09d20caaa680f6e7305eb4c833f7839e1bf42d/personal_finances_self_reliance.jpeg" alt="Personal Finances">
+        <button class="toggle-btn">View details</button>
+        <div class="card-body">
           <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/personal-finances?lang=eng" target="_blank">Personal Finances for Self-Reliance</a></h3>
           <p>For those who want better control over their finances. Group members will learn how to eliminate debt, protect against financial hardship, and invest in the future. Spouses are encouraged to attend together.</p>
           <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
@@ -22,8 +31,8 @@
 
       <div class="news-card" data-aos="fade-up" data-aos-delay="200">
         <img src="https://assets.ldscdn.org/a3/b9/a3b946444d8f281f4f4c62a2c04badda2bfb5f72/education_better_work_self_reliance.jpeg" alt="Education for Better Work">
+        <button class="toggle-btn">View details</button>
         <div class="card-body">
-          <p class="subtitle">SR Courses - Education</p>
           <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/education-for-better-work?lang=eng" target="_blank">Education for Better Work</a></h3>
           <p>For those who need additional education or training to get a job. Group members will research, create, and present career and education plans.</p>
           <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
@@ -32,8 +41,8 @@
 
       <div class="news-card" data-aos="fade-right" data-aos-delay="100">
         <img src="https://assets.ldscdn.org/d5/ea/d5ea0627687bdc4b05ba3b95521b948bfc8ad3ef/cover_find_better_job_manual.jpeg" alt="Find a Better Job">
+        <button class="toggle-btn">View details</button>
         <div class="card-body">
-          <p class="subtitle">SR Courses - Employment</p>
           <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/find-a-better-job?lang=eng" target="_blank">Find a Better Job</a></h3>
           <p>For those who are looking for work or a better job. Group members will learn to identify opportunities, network, and prepare for interviews.</p>
           <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
@@ -43,21 +52,32 @@
 
     <p></p>
     <div class="grid">
-          <!-- Your 2nd three main course cards -->
+      <!-- Your 2nd three main course cards -->
       <div class="news-card" data-aos="fade-left" data-aos-delay="100">
         <img src="https://assets.ldscdn.org/97/3a/973a895dd96f9a76160fe5578da8c2f22a6b9e5c/logos_self_reliant_service_business.jpeg" alt="Starting and Growing My Business">
+        <button class="toggle-btn">View details</button>
         <div class="card-body">
-          <p class="subtitle">SR Courses - Starting and Growing My Business</p>
+          <button class="card-toggle" aria-expanded="false" aria-controls="card-1-body">
           <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/starting-and-growing-my-business?lang=eng" target="_blank">Starting and Growing My Business</a></h3>
           <p>The goal of this group is not only to help you with your business; it is also to help you act in greater obedience and faith in the Lord and receive His promised blessings of temporal and spiritual self-reliance. </p>
           <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
         </div>
       </div>
 
+      <div class="news-card" data-aos="fade-left" data-aos-delay="100">
+        <img src="https://assets.ldscdn.org/5e/09/5e09d20caaa680f6e7305eb4c833f7839e1bf42d/personal_finances_self_reliance.jpeg" alt="Personal Finances">
+        <button class="toggle-btn">View details</button>
+        <div class="card-body">
+          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/personal-finances?lang=eng" target="_blank">Personal Finances for Self-Reliance</a></h3>
+          <p>For those who want better control over their finances. Group members will learn how to eliminate debt, protect against financial hardship, and invest in the future. Spouses are encouraged to attend together.</p>
+          <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
+        </div>
+      </div>
+
       <div class="news-card" data-aos="fade-up" data-aos-delay="200">
         <img src="https://assets.ldscdn.org/93/60/936020b50029b5a34a14c726e0bb5d5f7f8b52b7/cover_art.png" alt="Emotional Resilience">
+        <button class="toggle-btn">View details</button>
         <div class="card-body">
-          <p class="subtitle">SR Courses - Emotional Resilience</p>
           <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/emotional-resilience-self-reliance-course-video-resources?lang=eng" target="_blank">Emotional Resilience</a></h3>
           <p>To help individuals develop emotional resilience by relying on faith, scripture, and divine guidance.</p>
           <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
@@ -66,8 +86,8 @@
 
       <div class="news-card" data-aos="fade-right" data-aos-delay="100">
         <img src="https://assets.ldscdn.org/83/93/839353a4663543ab865b04a1486171d4132765a0/englishconnect_learners.jpeg" alt="EnglishConnect">
+        <button class="toggle-btn">View details</button>
         <div class="card-body">
-          <p class="subtitle">SR Courses - EnglishConnect</p>
           <h3><a href="https://www.churchofjesuschrist.org/self-reliance/englishconnect?lang=eng" target="_blank">EnglishConnect</a></h3>
           <p>EnglishConnect brings together English language learners, instructors, volunteers, and Church leaders to create an English learning program for all of God‘s children.</p>
           <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
@@ -113,5 +133,18 @@
 
   </section>
 </main>
+
+<script>
+  document.querySelectorAll('.toggle-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const card = btn.closest('.news-card');
+      card.classList.toggle('active');
+
+      btn.textContent = card.classList.contains('active')
+        ? 'Hide details'
+        : 'View details';
+    });
+  });
+</script>
 
 <?php include 'footer.php'; ?>

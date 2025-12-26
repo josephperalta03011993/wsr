@@ -603,7 +603,7 @@ img {
 
 .resources .grid {
     display: grid;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .card {
@@ -674,7 +674,7 @@ img {
 
 .news .grid {
     display: grid;
-    gap: 2rem;
+    gap: .5rem;
 }
 
 .news-card {
@@ -682,6 +682,25 @@ img {
     border-radius: .5rem;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.news-card:hover {
+    box-shadow: 0 14px 23px rgba(0, 0, 0, .15);
+    transform: translateY(-6px);
+    transition: transform 0.5s ease, box-shadow 0.4s ease;
+}
+
+.news-card:hover img {
+    transform: scale(1.04);
+}
+
+.news-card img {
+    transition: transform 0.5s ease;
+}
+
+.news .grid {
+    align-items: start;
 }
 
 .news-card img {
@@ -691,11 +710,23 @@ img {
 }
 
 .news-card .card-body {
-    padding: 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 1rem;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+}
+
+.news-card.active .card-body {
+    max-height: 400px; 
+    padding: 1rem;
+}
+
+.news-card .toggle-btn {
+    border-radius: 0;
 }
 
 .news-card .card-body h3 {
-    font-size: 1.125rem;
+    font-size: 1;
     font-weight: 700;
     color: #1f2937;
     margin-bottom: .5rem;
@@ -852,15 +883,15 @@ img {
     }
 
     .resources .grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .news {
-        padding: 6rem 3rem;
+        padding: 3rem 3rem;
     }
 
     .news .grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .cta {
@@ -905,7 +936,7 @@ img {
 /* Blog Grid */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
 
@@ -1413,4 +1444,16 @@ img {
 .card-text {
     padding: 1rem;
     text-align: left;
+}
+
+/* Toggle button */
+.toggle-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
 }
