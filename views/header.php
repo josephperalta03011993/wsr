@@ -67,6 +67,81 @@
               <a href="/views/swg-how-to-organize.php">Download Manuals</a>
             </div>
           </div>
+          <!-- Education Support Services -->
+          <div class="submenu">
+            <button class="submenu-title"
+                    @click="openSection = openSection === 'education' ? null : 'education'">
+              Education Support Services
+            </button>
+          </div>
+          <!-- Perpetual Education Fund -->
+          <div class="submenu">
+            <button class="submenu-title"
+                    @click="openSection = openSection === 'pef' ? null : 'pef'">
+              Perpetual Education Fund
+            </button>
+            <div class="submenu-panel" x-show="openSection === 'pef'" x-transition x-cloak>
+              <a href="/views/pef-roadmap.php">Roadmap</a>
+              <a href="<?= BASE_URL ?>views/education-services.php#how-to-apply">How to Apply</a>
+              <a href="/views/pef-schools.php">Approved schools & programs</a>
+              <a href="/views/pef-loan.php">Apply for a PEF Loan</a>
+            </div>
+          </div>
+          <!-- Benson Agriculture & Food Scholarships -->
+          <div class="submenu">
+            <button class="submenu-title"
+                    @click="openSection = openSection === 'benson' ? null : 'benson'">
+              Benson Agriculture & Food Scholarships
+            </button>
+            <div class="submenu-panel" x-show="openSection === 'benson'" x-transition x-cloak>
+              <a href="/views/benson-roadmap.php">Roadmap</a>
+              <a href="/views/benson-form.php">Download Application Form</a>
+              <a href="">Submit an application (email)</a>
+              <a href="">Other Resources</a>
+              <a href="">Success Stories</a>
+            </div>
+          </div>
+          <!-- Employment Services -->
+          <div class="submenu">
+            <button class="submenu-title"
+                    @click="openSection = openSection === 'employmentServices' ? null : 'employmentServices'">
+              Employment Services
+            </button>
+            <div class="submenu-panel" x-show="openSection === 'employmentServices'" x-transition x-cloak>
+              <a href="/views/ajs.php">AJS</a>
+              <a href="/views/coaching.php">Personalized Coaching</a>
+            </div>
+          </div>
+          <!-- Humanitarian Services -->
+          <div class="submenu">
+            <button class="submenu-title"
+                    @click="openSection = openSection === 'humanitarian' ? null : 'humanitarian'">
+              Humanitarian Services
+            </button>
+          </div>
+          <!-- Family Services -->
+          <div class="submenu">
+            <button class="submenu-title"
+                    @click="openSection = openSection === 'family' ? null : 'family'">
+              Family Services
+            </button>
+            <div class="submenu-panel" x-show="openSection === 'family'" x-transition x-cloak>
+              <a href="/views/fs_cosultation.php">Consultation</a>
+              <a href="/views/self-reliance.php#courses">Addiction Recovery Support Groups</a>
+              <a href="/views/self-reliance-manuals.php">Courses</a>
+              <a href="/views/self-reliance-manuals.php">Online Resources</a>
+            </div>
+          </div>
+          <!-- My Plan Conference -->
+          <div class="submenu">
+            <button class="submenu-title"
+                    @click="openSection = openSection === 'myplan' ? null : 'myplan'">
+              My Plan Conference
+            </button>
+            <div class="submenu-panel" x-show="openSection === 'myplan'" x-transition x-cloak>
+              <a href="/views/myplan.php">Info & Registration</a>
+            </div>
+          </div>
         </div>
       </div>
 
