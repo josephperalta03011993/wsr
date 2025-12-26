@@ -59,7 +59,8 @@
           <!-- Self-Reliance Courses -->  
           <div class="submenu">
             <button class="submenu-title"
-                    @click="openSection = openSection === 'swg' ? null : 'swg'">
+                    @click="openSection = openSection === 'swg' ? null : 'swg'"
+                    :class="{ 'active': openSection === 'swg' }">
               Self-Reliance Courses
             </button>
             <div class="submenu-panel" x-show="openSection === 'swg'" x-transition x-cloak>
@@ -70,14 +71,16 @@
           <!-- Education Support Services -->
           <div class="submenu">
             <button class="submenu-title"
-                    @click="openSection = openSection === 'education' ? null : 'education'">
+                    @click="openSection = openSection === 'education' ? null : 'education'"
+                    :class="{ 'active': openSection === 'education' }">
               Education Support Services
             </button>
           </div>
           <!-- Perpetual Education Fund -->
           <div class="submenu">
             <button class="submenu-title"
-                    @click="openSection = openSection === 'pef' ? null : 'pef'">
+                    @click="openSection = openSection === 'pef' ? null : 'pef'"
+                    :class="{ 'active': openSection === 'pef' }">
               Perpetual Education Fund
             </button>
             <div class="submenu-panel" x-show="openSection === 'pef'" x-transition x-cloak>
@@ -90,7 +93,8 @@
           <!-- Benson Agriculture & Food Scholarships -->
           <div class="submenu">
             <button class="submenu-title"
-                    @click="openSection = openSection === 'benson' ? null : 'benson'">
+                    @click="openSection = openSection === 'benson' ? null : 'benson'"
+                    :class="{ 'active': openSection === 'benson' }">
               Benson Agriculture & Food Scholarships
             </button>
             <div class="submenu-panel" x-show="openSection === 'benson'" x-transition x-cloak>
@@ -104,7 +108,8 @@
           <!-- Employment Services -->
           <div class="submenu">
             <button class="submenu-title"
-                    @click="openSection = openSection === 'employmentServices' ? null : 'employmentServices'">
+                    @click="openSection = openSection === 'employmentServices' ? null : 'employmentServices'"
+                    :class="{ 'active': openSection === 'employmentServices' }">
               Employment Services
             </button>
             <div class="submenu-panel" x-show="openSection === 'employmentServices'" x-transition x-cloak>
@@ -115,14 +120,16 @@
           <!-- Humanitarian Services -->
           <div class="submenu">
             <button class="submenu-title"
-                    @click="openSection = openSection === 'humanitarian' ? null : 'humanitarian'">
+                    @click="openSection = openSection === 'humanitarian' ? null : 'humanitarian'"
+                    :class="{ 'active': openSection === 'humanitarian' }">
               Humanitarian Services
             </button>
           </div>
           <!-- Family Services -->
           <div class="submenu">
             <button class="submenu-title"
-                    @click="openSection = openSection === 'family' ? null : 'family'">
+                    @click="openSection = openSection === 'family' ? null : 'family'"
+                    :class="{ 'active': openSection === 'family' }">
               Family Services
             </button>
             <div class="submenu-panel" x-show="openSection === 'family'" x-transition x-cloak>
@@ -135,7 +142,8 @@
           <!-- My Plan Conference -->
           <div class="submenu">
             <button class="submenu-title"
-                    @click="openSection = openSection === 'myplan' ? null : 'myplan'">
+                    @click="openSection = openSection === 'myplan' ? null : 'myplan'"
+                    :class="{ 'active': openSection === 'myplan' }">
               My Plan Conference
             </button>
             <div class="submenu-panel" x-show="openSection === 'myplan'" x-transition x-cloak>
@@ -163,7 +171,8 @@
           <!-- SWG -->
           <div class="submenu">
             <button class="submenu-title"
-                    @click="openSection = openSection === 'swg' ? null : 'swg'">
+                    @click="openSection = openSection === 'swg' ? null : 'swg'"
+                    :class="{ 'active': openSection === 'swg' }">
               Specialized Working Groups
             </button>
             <div class="submenu-panel" x-show="openSection === 'swg'" x-transition x-cloak>
@@ -176,7 +185,8 @@
           <!-- QuickReg -->
           <div class="submenu">
             <button class="submenu-title"
-                    @click="openSection = openSection === 'quickreg' ? null : 'quickreg'">
+                    @click="openSection = openSection === 'quickreg' ? null : 'quickreg'"
+                    :class="{ 'active': openSection === 'quickreg' }">
               QuickReg Registration
             </button>
             <div class="submenu-panel" x-show="openSection === 'quickreg'" x-transition x-cloak>

@@ -1457,3 +1457,35 @@ img {
   cursor: pointer;
   text-align: center;
 }
+
+.main-nav a,
+.main-nav button {
+    font: inherit;
+    font-weight: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    line-height: inherit;
+}
+
+.main-nav a,
+.main-nav .dropdown-toggle {
+    padding: 0.2rem 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.submenu-title {
+    font-weight: 500;
+    transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.submenu-title.active {
+    font-weight: 700;
+    color: #1f2937; /* darker = clearer focus */
+}
