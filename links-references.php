@@ -23,6 +23,7 @@ NAVIGATION BAR
     - Government and Community Resources <a href="https://www.churchofjesuschrist.org/study/manual/general-handbook/22-providing-for-temporal-needs?lang=eng&id=title_number99-p288#title_number99" target="_blank">Government and Community Resources</a>
     - Church Resources <a href="https://www.churchofjesuschrist.org/study/manual/general-handbook/22-providing-for-temporal-needs?lang=eng&id=title100-p289#title100" target="_blank">Church Resources</a>
     - Sacred Funds Sacred Responsibility <a href="https://www.churchofjesuschrist.org/tools/help/sacred-funds-sacred-responsibilities?lang=eng" target="_blank">Sacred Funds Sacred Responsibility</a>
+    - Guide in Administering Medical Assistance <a href="GAMA.pdf" target="_blank">Guide in Administering Medical Assistance</a>
     - Self-Reliance Plan <a href="https://www.churchofjesuschrist.org/bc/content/shared/content/english/pdf/welfare/PD60007387_000_SelfReliancePlan_Member_Web_Interactive.pdf" target="_blank">Self-Reliance Plan</a>
     - Bishops Guide to Self-Reliance Plan <a href="https://www.churchofjesuschrist.org/bc/content/shared/content/english/pdf/welfare/Bishops_Guide_to_the_Self_Reliance_Plan.pdf?download=true" target="_blank">Bishops Guide to Self-Reliance Plan</a>
     - Area Temporal Preparedness Guide <a href="https://ph.churchofjesuschrist.org/acp/bc/Philippines/Area%20Temporal%20Preparedness%20Guidelines/Temporal%20Preparedness%20Guide-Phil.pdf" target="_blank">Area Temporal Preparedness Guide</a>
