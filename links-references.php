@@ -17,13 +17,23 @@ NAVIGATION BAR
     Success Stories
     About Us
     Leader Resources
-    - Specialized Working Groups
+    - Roles of Stake Leaders <a href="https://www.churchofjesuschrist.org/study/manual/general-handbook/22-providing-for-temporal-needs?lang=eng&id=title_number87-p210#title_number87" target="_blank">Roles of Stake Leaders</a>
+    - Stake Adult Leadership Committee <a href="https://www.churchofjesuschrist.org/study/manual/general-handbook/22-providing-for-temporal-needs?lang=eng&id=title_number95-p262#title_number95" target="_blank">Stake Adult Leadership Committee</a>
+    - Specialized Working Groups <a href="https://www.churchofjesuschrist.org/study/manual/general-handbook/22-providing-for-temporal-needs?lang=eng&id=title_number97-p274#title_number97" target="_blank">Specialized Working Groups</a>
+    - Government and Community Resources <a href="https://www.churchofjesuschrist.org/study/manual/general-handbook/22-providing-for-temporal-needs?lang=eng&id=title_number99-p288#title_number99" target="_blank">Government and Community Resources</a>
+    - Church Resources <a href="https://www.churchofjesuschrist.org/study/manual/general-handbook/22-providing-for-temporal-needs?lang=eng&id=title100-p289#title100" target="_blank">Church Resources</a>
+    - Sacred Funds Sacred Responsibility <a href="https://www.churchofjesuschrist.org/tools/help/sacred-funds-sacred-responsibilities?lang=eng" target="_blank">Sacred Funds Sacred Responsibility</a>
+    - Self-Reliance Plan <a href="https://www.churchofjesuschrist.org/bc/content/shared/content/english/pdf/welfare/PD60007387_000_SelfReliancePlan_Member_Web_Interactive.pdf" target="_blank">Self-Reliance Plan</a>
+    - Bishops Guide to Self-Reliance Plan <a href="https://www.churchofjesuschrist.org/bc/content/shared/content/english/pdf/welfare/Bishops_Guide_to_the_Self_Reliance_Plan.pdf?download=true" target="_blank">Bishops Guide to Self-Reliance Plan</a>
+    - Area Temporal Preparedness Guide <a href="https://ph.churchofjesuschrist.org/acp/bc/Philippines/Area%20Temporal%20Preparedness%20Guidelines/Temporal%20Preparedness%20Guide-Phil.pdf" target="_blank">Area Temporal Preparedness Guide</a>
+    - Stake and Ward Emergency Preparedness <a href="https://www.churchofjesuschrist.org/study/manual/emergency-preparedness/06-leader-resources/24-stake-and-ward-emergency-preparedness?lang=eng" target="_blank">Stake and Ward Emergency Preparedness</a>
+    - Counselling Resources <a href="https://www.churchofjesuschrist.org/study/manual/counseling-resources?lang=eng" target="_blank">Counselling Resources</a>
     - QuickReg Registration
 
     Slider Image
 
     Welfare and Self Reliance Services
-    - Learn More
+    - Learn More <a href="https://www.churchofjesuschrist.org/callings/welfare-self-reliance/resources?lang=eng" target="_blank"> (link to external site) </a>
     - Get Involved
 
 
