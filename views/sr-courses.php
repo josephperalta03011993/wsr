@@ -19,12 +19,12 @@
         </div>
       </div>
 
-      <div class="news-card" data-aos="fade-left" data-aos-delay="100">
-        <img src="https://assets.ldscdn.org/5e/09/5e09d20caaa680f6e7305eb4c833f7839e1bf42d/personal_finances_self_reliance.jpeg" alt="Personal Finances">
+      <div class="news-card" data-aos="fade-up" data-aos-delay="200">
+        <img src="https://assets.ldscdn.org/93/60/936020b50029b5a34a14c726e0bb5d5f7f8b52b7/cover_art.png" alt="Emotional Resilience">
         <button class="toggle-btn">View details</button>
         <div class="card-body">
-          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/personal-finances?lang=eng" target="_blank">Personal Finances for Self-Reliance</a></h3>
-          <p>For those who want better control over their finances. Group members will learn how to eliminate debt, protect against financial hardship, and invest in the future. Spouses are encouraged to attend together.</p>
+          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/emotional-resilience-self-reliance-course-video-resources?lang=eng" target="_blank">Emotional Resilience</a></h3>
+          <p>To help individuals develop emotional resilience by relying on faith, scripture, and divine guidance.</p>
           <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
         </div>
       </div>
@@ -64,32 +64,32 @@
         </div>
       </div>
 
-      <div class="news-card" data-aos="fade-left" data-aos-delay="100">
-        <img src="https://assets.ldscdn.org/5e/09/5e09d20caaa680f6e7305eb4c833f7839e1bf42d/personal_finances_self_reliance.jpeg" alt="Personal Finances">
+      <div class="news-card" data-aos="fade-right" data-aos-delay="100">
+        <img src="https://byu-pathway.brightspotcdn.com/e2/19/d40666554b5aa40073d737d3c4f1/englishconnect-chevron-english.svg" alt="EnglishConnect">
         <button class="toggle-btn">View details</button>
         <div class="card-body">
-          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/personal-finances?lang=eng" target="_blank">Personal Finances for Self-Reliance</a></h3>
-          <p>For those who want better control over their finances. Group members will learn how to eliminate debt, protect against financial hardship, and invest in the future. Spouses are encouraged to attend together.</p>
-          <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
+          <h3><a href="https://www.englishconnect.org/" target="_blank">EnglishConnect</a></h3>
+          <p>EnglishConnect brings together English language learners, instructors, volunteers, and Church leaders to create an English learning program for all of God's children.</p>
+          <a href="https://www.englishconnect.org/get-started" target="_blank">Get Started</a>
         </div>
       </div>
 
       <div class="news-card" data-aos="fade-up" data-aos-delay="200">
-        <img src="https://assets.ldscdn.org/93/60/936020b50029b5a34a14c726e0bb5d5f7f8b52b7/cover_art.png" alt="Emotional Resilience">
+        <img src="https://www.churchofjesuschrist.org/imgs/d5f7148867d0895aeb4c4ceb2571ade63d17ce7d/full/%21320%2C/0/default" alt="Strengthening Marriage">
         <button class="toggle-btn">View details</button>
         <div class="card-body">
-          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/emotional-resilience-self-reliance-course-video-resources?lang=eng" target="_blank">Emotional Resilience</a></h3>
-          <p>To help individuals develop emotional resilience by relying on faith, scripture, and divine guidance.</p>
+          <h3><a href="https://www.churchofjesuschrist.org/study/manual/strengthening-marriage-resource-guide-for-couples?lang=eng" target="_blank">Strengthening Marriage</a></h3>
+          <p>The Lord has promised eternal family relationships to those who make and keep temple marriage covenants.</p>
           <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
         </div>
       </div>
 
       <div class="news-card" data-aos="fade-right" data-aos-delay="100">
-        <img src="https://assets.ldscdn.org/83/93/839353a4663543ab865b04a1486171d4132765a0/englishconnect_learners.jpeg" alt="EnglishConnect">
+        <img src="https://www.churchofjesuschrist.org/imgs/d5ad9e3a472c0ddfc3c6aaf9cc43fe35aa62e31a/full/%21320%2C/0/default" alt="Strengthening the Family">
         <button class="toggle-btn">View details</button>
         <div class="card-body">
-          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/englishconnect?lang=eng" target="_blank">EnglishConnect</a></h3>
-          <p>EnglishConnect brings together English language learners, instructors, volunteers, and Church leaders to create an English learning program for all of God‘s children.</p>
+          <h3><a href="https://www.englishconnect.org/" target="_blank">Strengthening the Family</a></h3>
+          <p>“Pray in your families unto the Father, always in my name, that your [families] may be blessed.”</p>
           <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
         </div>
       </div>
