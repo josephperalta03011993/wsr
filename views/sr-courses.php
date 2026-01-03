@@ -102,7 +102,7 @@
           Real Members • Real Progress
         </p>
         <h3 style="margin: 0.5rem 0 0; color: #1f2937;">
-          Self-Reliance in Action Across the Stake
+          Download the Self-Reliance Course Manuals
         </h3>
       </div>
 
@@ -110,8 +110,8 @@
       <div class="thumbnail-scroller">
         <div class="thumbnail-track">
           <!-- First set -->
-          <img src="<?= BASE_URL ?>/public/images/slider-1.png" alt="Self-Reliance group meeting" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-2.png" alt="Members learning together" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="https://assets.ldscdn.org/df/be/dfbe11d05046fee99cee3b6633bca514a37706931050369/leader_guide_self_reliance.jpeg" alt="The Leader's Guide" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="https://assets.ldscdn.org/94/7c/947ce4e097db46e7bde59458926b980a92bc66d5/cover_my_path_self_reliance.jpeg" alt="My Path" width="195" height="130" loading="lazy" style="object-fit: cover;">
           <img src="<?= BASE_URL ?>/public/images/slider-3.png" alt="Job skills workshop" width="195" height="130" loading="lazy" style="object-fit: cover;">
           <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Graduation celebration" width="195" height="130" loading="lazy" style="object-fit: cover;">
           <img src="<?= BASE_URL ?>/public/images/slider-5.png" alt="EnglishConnect class" width="195" height="130" loading="lazy" style="object-fit: cover;">
