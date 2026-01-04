@@ -1,14 +1,14 @@
 <?php include 'header.php'; ?>
 
 <main>
-  <section class="news">
+  <section class="sr-courses-section">
     <div class="section-header" data-aos="fade-up">
       <h2>Self-Reliance Courses</h2>
       <p>Learn about the Self-Reliance courses that may help you today. Start your self-reliance path by joining a group within your stake or district.</p>
     </div>
 
     <div class="grid">
-      <!-- Your three main course cards -->
+      <!-- Your 8 main course cards -->
       <div class="news-card" data-aos="fade-left" data-aos-delay="100">
         <img src="https://assets.ldscdn.org/5e/09/5e09d20caaa680f6e7305eb4c833f7839e1bf42d/personal_finances_self_reliance.jpeg" alt="Personal Finances">
         <button class="toggle-btn">View details</button>
@@ -94,8 +94,9 @@
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- THUMBNAIL SCROLLER WITH TITLE -->
+  <!-- THUMBNAIL SCROLLER WITH TITLE -->
     <div class="center" data-aos="fade-up" data-aos-delay="300" id="sr-courses">
       <div style="margin-bottom: 2rem;">
         <p style="color: #991b1b; font-weight: 600; margin: 0; font-size: 0.95rem; letter-spacing: 0.5px;">
@@ -120,7 +121,11 @@
       </div>
 
       <!-- Main scroller container -->
+       <h3 style="margin: 5rem 0 2rem; color: #1f2937;">
+          Self-Reliance Success Stories
+        </h3>
       <div class="thumbnail-scroller">
+        
         <div class="thumbnail-track">
           <!-- First set -->
           <img src="https://assets.ldscdn.org/df/be/dfbe11d05046fee99cee3b6633bca514a37706931050369/leader_guide_self_reliance.jpeg" alt="The Leader's Guide" width="195" height="130" loading="lazy" style="object-fit: cover;">
@@ -143,8 +148,7 @@
           <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Youth self-reliance activity" width="195" height="130" loading="lazy" style="object-fit: cover;">
         </div>
       </div>
-
-  </section>
+    </div>
 </main>
 
 <script>

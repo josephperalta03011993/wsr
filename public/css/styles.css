@@ -907,6 +907,11 @@ img {
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .sr-courses-section {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 2rem 3rem;
+    }
+
     .cta {
         padding: 6rem 3rem;
     }
@@ -1360,7 +1365,7 @@ img {
 .thumbnail-track {
     display: flex;
     gap: 18px;
-    animation: scrollThumbnails 85s linear infinite;
+    animation: scrollThumbnails 10s linear infinite;
     padding: 10px 0;
     /* prevents clipping on hover lift */
 }
@@ -1513,4 +1518,8 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem 1.25rem; /* row gap, column gap */
   }
+}
+
+.self-reliance-courses-grid {
+    padding: 4rem 1.5rem;
 }
