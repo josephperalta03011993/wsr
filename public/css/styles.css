@@ -1,6 +1,15 @@
 /* -------------------------------------------------
    BASE STYLES
    ------------------------------------------------- */
+html {
+    scroll-behavior: smooth;
+}
+
+
+#sr-courses {
+    scroll-margin-top: 140px; /* or 64px, 80px—match your navbar */
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
