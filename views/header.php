@@ -208,7 +208,7 @@
     </nav>
 
     <!-- CTA BUTTON (desktop) -->
-    <a href="#learn" class="btn btn-primary desktop-only">Learn</a>
+    <!-- <a href="#learn" class="btn btn-primary desktop-only">Learn</a> -->
 
     <!-- MOBILE TOGGLE -->
     <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false">
@@ -252,7 +252,7 @@
       <a href="<?= BASE_URL ?>views/contacts.php" class="mobile-nav-link">Contact Us</a>
       <a href="<?= BASE_URL ?>views/about.php" class="mobile-nav-link">About Us</a>
 
-      <a href="#learn" class="btn btn-primary mobile-cta">Learn</a>
+      <!-- <a href="#learn" class="btn btn-primary mobile-cta">Learn</a> -->
     </nav>
   </div>
 

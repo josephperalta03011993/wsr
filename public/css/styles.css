@@ -612,7 +612,6 @@ img {
 
 .resources .grid {
     display: grid;
-    gap: 1rem;
 }
 
 .card {
@@ -951,7 +950,10 @@ img {
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: .5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-items: center;
 }
 
 /* Blog Card */
