@@ -1494,3 +1494,12 @@ img {
     font-weight: 700;
     color: #1f2937; /* darker = clearer focus */
 }
+
+/* Desktop: 2 columns */
+@media (min-width: 1024px) { /* adjust breakpoint as needed */
+  .left.two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1.25rem; /* row gap, column gap */
+  }
+}

@@ -104,7 +104,10 @@
         <h3 style="margin: 0.5rem 0 0; color: #1f2937;">
           Download the Self-Reliance Course Manuals
         </h3>
-        <ul class="left">
+        <ul class="left two-col">
+          <li><a href="https://www.churchofjesuschrist.org/bc/content/ldsorg/topics/self-reliance/personal-finances-na-eng.pdf?lang=eng&download=true" target="_blank">Download Personal Finances Manual</a></li>
+          <li><a href="https://www.churchofjesuschrist.org/bc/content/ldsorg/topics/self-reliance/personal-finances-na-eng.pdf?lang=eng&download=true" target="_blank">Download Personal Finances Manual</a></li>
+          <li><a href="https://www.churchofjesuschrist.org/bc/content/ldsorg/topics/self-reliance/personal-finances-na-eng.pdf?lang=eng&download=true" target="_blank">Download Personal Finances Manual</a></li>
           <li><a href="https://www.churchofjesuschrist.org/bc/content/ldsorg/topics/self-reliance/personal-finances-na-eng.pdf?lang=eng&download=true" target="_blank">Download Personal Finances Manual</a></li>
         </ul>
       </div>
