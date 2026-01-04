@@ -106,9 +106,16 @@
         </h3>
         <ul class="left two-col">
           <li><a href="https://www.churchofjesuschrist.org/bc/content/ldsorg/topics/self-reliance/personal-finances-na-eng.pdf?lang=eng&download=true" target="_blank">Download Personal Finances Manual</a></li>
-          <li><a href="https://www.churchofjesuschrist.org/bc/content/ldsorg/topics/self-reliance/personal-finances-na-eng.pdf?lang=eng&download=true" target="_blank">Download Personal Finances Manual</a></li>
-          <li><a href="https://www.churchofjesuschrist.org/bc/content/ldsorg/topics/self-reliance/personal-finances-na-eng.pdf?lang=eng&download=true" target="_blank">Download Personal Finances Manual</a></li>
-          <li><a href="https://www.churchofjesuschrist.org/bc/content/ldsorg/topics/self-reliance/personal-finances-na-eng.pdf?lang=eng&download=true" target="_blank">Download Personal Finances Manual</a></li>
+          <li><a href="https://www.churchofjesuschrist.org/bc/content/ldsorg/topics/self-reliance/Emotional-Self-Reliance-Manual-new.pdf?lang=eng" target="_blank">Download Emotional Resilience Manual</a></li>
+          <li><a href="https://www.churchofjesuschrist.org/bc/content/ldsorg/topics/self-reliance/education-for-better-work-na-eng.pdf?lang=eng&download=true" target="_blank">Download Education For Better Work Manual</a></li>
+          <li><a href="https://www.churchofjesuschrist.org/bc/content/ldsorg/topics/self-reliance/find-a-better-job-na-eng.pdf?lang=eng&download=true" target="_blank">Download Find A Better Job Manual</a></li>
+          <li><a href="https://www.churchofjesuschrist.org/bc/content/ldsorg/topics/self-reliance/2017/14678_sgmb_book_eng.pdf?lang=eng" target="_blank">Download Starting and Growing My Business Manual</a></li>
+          <li><a href="https://byu-pathway.brightspotcdn.com/21/e7/aba839e84979ad51dc7104c37482/englishconnect-1-learnerenglishmanual.pdf" target="_blank">Download EnglishConnect 1 for Learners Manual</a></li>
+          <li><a href="https://byu-pathway.brightspotcdn.com/a5/31/da6a81cb44859c779be026e7825b/englishconnect-1-instructor.pdf" target="_blank">Download EnglishConnect 2 for Learners Manual</a></li>
+          <li><a href="https://byu-pathway.brightspotcdn.com/21/e7/aba839e84979ad51dc7104c37482/englishconnect-1-learnerenglishmanual.pdf" target="_blank">Download EnglishConnect 1 for Teachers Manual</a></li>
+          <li><a href="https://www.englishconnect.org/ec2-instructor-manual.pdf" target="_blank">Download EnglishConnect 2 for Teachers Manual</a></li>
+          <li><a href="https://www.churchofjesuschrist.org/bc/content/shared/content/english/pdf/language-materials/36888_eng.pdf" target="_blank">Download Strengthening Marriage Couples Guide</a></li>
+          <li><a href="https://www.churchofjesuschrist.org/bc/content/shared/content/english/pdf/language-materials/36612_eng.pdf" target="_blank">Download Strengthening The Family Resource Guide for Parents</a></li>
         </ul>
       </div>
 
