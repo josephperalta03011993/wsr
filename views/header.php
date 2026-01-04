@@ -65,7 +65,7 @@
             </button>
             <div class="submenu-panel" x-show="openSection === 'swg'" x-transition x-cloak>
               <a href="<?= BASE_URL ?>views/sr-courses.php">Courses</a>
-              <a href="/views/swg-how-to-organize.php">Download Manuals</a>
+              <a href="<?= BASE_URL ?>views/sr-courses.php#sr-courses">Download Manuals</a>
             </div>
           </div>
           <!-- Education Support Services -->

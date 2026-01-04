@@ -96,7 +96,7 @@
     </div>
 
     <!-- THUMBNAIL SCROLLER WITH TITLE -->
-    <div class="center" data-aos="fade-up" data-aos-delay="300">
+    <div class="center" data-aos="fade-up" data-aos-delay="300" id="sr-courses">
       <div style="margin-bottom: 2rem;">
         <p style="color: #991b1b; font-weight: 600; margin: 0; font-size: 0.95rem; letter-spacing: 0.5px;">
           Real Members • Real Progress
