@@ -64,7 +64,7 @@
               Self-Reliance Courses
             </button>
             <div class="submenu-panel" x-show="openSection === 'swg'" x-transition x-cloak>
-              <a href="<?= BASE_URL ?>views/swg.php">Courses</a>
+              <a href="<?= BASE_URL ?>views/sr-courses.php">Courses</a>
               <a href="/views/swg-how-to-organize.php">Download Manuals</a>
             </div>
           </div>
@@ -75,6 +75,11 @@
                     :class="{ 'active': openSection === 'education' }">
               Education Support Services
             </button>
+            <div>
+              <div class="submenu-panel" x-show="openSection === 'education'" x-transition x-cloak>
+                <a href="<?= BASE_URL ?>views/education-services.php">Education Resources</a>
+                <a href="<?= BASE_URL ?>views/scholarships-grants.php">Scholarships & Grants</a>
+            </div>
           </div>
           <!-- Perpetual Education Fund -->
           <div class="submenu">
@@ -87,7 +92,7 @@
               <a href="/views/pef-roadmap.php">Roadmap</a>
               <a href="<?= BASE_URL ?>views/education-services.php#how-to-apply">How to Apply</a>
               <a href="/views/pef-schools.php">Approved schools & programs</a>
-              <a href="/views/pef-loan.php">Apply for a PEF Loan</a>
+              <a href="https://www.churchofjesuschrist.org/life/education/perpetual-education-fund?lang=eng">Apply for a PEF Loan</a>
             </div>
           </div>
           <!-- Benson Agriculture & Food Scholarships -->
