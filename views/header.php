@@ -11,7 +11,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Homepage - find basic information in the WSR Library.">
-  <meta name="author" content="Jaryne Moraleda Manrique, Ryan Manrique, Joseph Peralta">
+  <meta name="author" content="Jaryne Moraleda Manrique, Ryan Manrique, Joseph Peralta,">
   <title>Homepage | Welfare & Self-Reliance</title>
 
   <!-- Open Graph tags -->
