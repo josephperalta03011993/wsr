@@ -50,9 +50,17 @@
         </div>
       </div>
     </div>
-    <p></p>
-    <h3>Requirements Before Creating a Loan Account</h3>
-    <p></p>
+    <!-- THUMBNAIL SCROLLER WITH TITLE -->
+    <div class="center" data-aos="fade-up" data-aos-delay="300" id="sr-courses">
+      <div style="margin-bottom: 2rem;">
+        <p style="color: #991b1b; font-weight: 600; margin: 0; font-size: 0.95rem; letter-spacing: 0.5px;">
+          Are You Planning for a PEF Loan?
+        </p>
+        <h3 style="margin: 0.5rem 0 0; color: #1f2937;">
+          Requirements Before Creating a Loan Account
+        </h3>
+        <p>
+        </p>
     <div class="grid">
       <!-- Your 2nd three main course cards -->
       <!-- Card 1; Row 2 -->  
@@ -100,7 +108,7 @@
     </div>
   </section>
 
-  <!-- THUMBNAIL SCROLLER WITH TITLE -->
+  <!-- THUMBNAIL SCROLLER WITH TITLE 
     <div class="center" data-aos="fade-up" data-aos-delay="300" id="sr-courses">
       <div style="margin-bottom: 2rem;">
         <p style="color: #991b1b; font-weight: 600; margin: 0; font-size: 0.95rem; letter-spacing: 0.5px;">
@@ -123,6 +131,7 @@
           <li><a href="https://www.churchofjesuschrist.org/bc/content/shared/content/english/pdf/language-materials/36612_eng.pdf" target="_blank">Download Strengthening The Family Resource Guide for Parents</a></li>
         </ul>
       </div>
+      -->
 
       <!-- Main scroller container -->
        <h3 style="margin: 5rem 0 2rem; color: #1f2937;">
