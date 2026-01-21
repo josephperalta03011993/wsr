@@ -77,3 +77,17 @@ NAVIGATION BAR
     - Privacy Policy
     - Terms of Use 
     - Cookie Policy
+
+    Targets for 01/21/2026
+    1. Include as submenu to Education Support Services
+       - Perpetual Education Fund
+       - Benson Agriculture & Food Scholarships
+    2. Education Support Services page
+    3. Update wsrph.org
+    
+    To follow:
+    1. Hamburger 
+    2. Responsiveness
+
+    
+
