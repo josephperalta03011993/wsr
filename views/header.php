@@ -77,37 +77,10 @@
             </button>
             <div>
               <div class="submenu-panel" x-show="openSection === 'education'" x-transition x-cloak>
+                <a href="<?= BASE_URL ?>views/pef.php">PEF</a>
+                <a href="<?= BASE_URL ?>views/benson-scholarship.php">BAFS</a>
                 <a href="<?= BASE_URL ?>views/education-services.php">Education Resources</a>
                 <a href="<?= BASE_URL ?>views/scholarships-grants.php">Scholarships & Grants</a>
-            </div>
-          </div>
-          <!-- Perpetual Education Fund -->
-          <div class="submenu">
-            <button class="submenu-title"
-                    @click="openSection = openSection === 'pef' ? null : 'pef'"
-                    :class="{ 'active': openSection === 'pef' }">
-              Perpetual Education Fund
-            </button>
-            <div class="submenu-panel" x-show="openSection === 'pef'" x-transition x-cloak>
-              <a href="/views/pef-roadmap.php">Roadmap</a>
-              <a href="<?= BASE_URL ?>views/education-services.php#how-to-apply">How to Apply</a>
-              <a href="/views/pef-schools.php">Approved schools & programs</a>
-              <a href="https://www.churchofjesuschrist.org/life/education/perpetual-education-fund?lang=eng">Apply for a PEF Loan</a>
-            </div>
-          </div>
-          <!-- Benson Agriculture & Food Scholarships -->
-          <div class="submenu">
-            <button class="submenu-title"
-                    @click="openSection = openSection === 'benson' ? null : 'benson'"
-                    :class="{ 'active': openSection === 'benson' }">
-              Benson Agriculture & Food Scholarships
-            </button>
-            <div class="submenu-panel" x-show="openSection === 'benson'" x-transition x-cloak>
-              <a href="/views/benson-roadmap.php">Roadmap</a>
-              <a href="/views/benson-form.php">Download Application Form</a>
-              <a href="">Submit an application (email)</a>
-              <a href="">Other Resources</a>
-              <a href="">Success Stories</a>
             </div>
           </div>
           <!-- Employment Services -->
