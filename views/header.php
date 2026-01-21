@@ -77,8 +77,8 @@
             </button>
             <div>
               <div class="submenu-panel" x-show="openSection === 'education'" x-transition x-cloak>
-                <a href="<?= BASE_URL ?>views/pef.php">PEF</a>
-                <a href="<?= BASE_URL ?>views/benson-scholarship.php">BAFS</a>
+                <a href="<?= BASE_URL ?>views/pef.php">Perpetual Education Fund</a>
+                <a href="<?= BASE_URL ?>views/benson-scholarship.php">Benson Scholarship</a>
                 <a href="<?= BASE_URL ?>views/education-services.php">Education Resources</a>
                 <a href="<?= BASE_URL ?>views/scholarships-grants.php">Scholarships & Grants</a>
             </div>
