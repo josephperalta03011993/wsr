@@ -88,6 +88,9 @@ NAVIGATION BAR
     To follow:
     1. Hamburger 
     2. Responsiveness
+    3. Additional submenu for Leaders Resources
+    4. Files to upload to server
+    5. Visitor counter (database for analytics?)
 
     
 
