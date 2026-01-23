@@ -16,17 +16,17 @@
         <div class="card-body">
           <h3><a href="https://portal.pef.churchofjesuschrist.org/" target="_blank">What is PEF?</a></h3>
           <p>If you are a Church member who is unemployed, underemployed, or need better employment to provide for you and your family, the Perpetual Education Fund (PEF) program may help you become self-reliant.</p>
-          <a href="mailto:educationsupportPHL@churchofjesuschrist.org?subject=PEF Inquiry from WSRPH.org" target="_blank">Ask an Education Support Specialist</a>
+          <a href="https://portal.pef.churchofjesuschrist.org/help" target="_blank">Need More Help?</a>
         </div>
       </div>
       <!-- Card 2; Row 1 --> 
       <div class="news-card" data-aos="fade-up" data-aos-delay="200">
-        <img src="https://assets.ldscdn.org/93/60/936020b50029b5a34a14c726e0bb5d5f7f8b52b7/cover_art.png" alt="Emotional Resilience">
+        <img src="<?= BASE_URL ?>/public/images/students-in-school.jpg" alt="PEF Students">
         <button class="toggle-btn">What is a PEF Loan?</button>
         <div class="card-body">
           <h3><a href="https://portal.pef.churchofjesuschrist.org/help#:~:text=What%20is%20a,spirit%20of%20independence." target="_blank">What is PEF Loan?</a></h3>
           <p>If you qualify for PEF, you pay for your education using money from PEF. The money is sent directly from PEF to your school. A PEF loan is the money you repay to PEF. When you finish your studies, you begin working, and you pay back your PEF loan in small monthly payments.</p>
-          <a href="https://portal.pef.churchofjesuschrist.org/help" target="_blank">Need More Help?</a>
+          <a href="https://portal.pef.churchofjesuschrist.org/help#:~:text=The%20Basics,priesthood%20endorsement%20interview%3F" target="_blank">Frequently Asked Questions</a>
         </div>
       </div>
       <!-- Card 3; Row 1 --> 
@@ -36,7 +36,7 @@
         <div class="card-body">
           <h3><a href="https://portal.pef.churchofjesuschrist.org/programsandschools/search" target="_blank">Programs & Schools</a></h3>
           <p>For those who need additional education or training to get a job. Group members will research, create, and present career and education plans.</p>
-          <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
+          <a href="mailto:educationsupportPHL@churchofjesuschrist.org?subject=PEF Inquiry from WSRPH.org" target="_blank">Ask an Education Support Specialist</a>
         </div>
       </div>
       <!-- Card 4; Row 1 --> 
@@ -46,7 +46,7 @@
         <div class="card-body">
           <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/find-a-better-job?lang=eng" target="_blank">Find a Better Job</a></h3>
           <p>For those who are looking for work or a better job. Group members will learn to identify opportunities, network, and prepare for interviews.</p>
-          <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
+          <a href="mailto:educationsupportPHL@churchofjesuschrist.org?subject=PEF Inquiry from WSRPH.org" target="_blank">Ask an Education Support Specialist</a>
         </div>
       </div>
     </div>
