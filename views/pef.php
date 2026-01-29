@@ -87,7 +87,8 @@
       </div>
       <!-- Card 3; Row 2 -->  
       <div class="news-card" data-aos="fade-up" data-aos-delay="200">
-        <img src="https://www.churchofjesuschrist.org/imgs/d5f7148867d0895aeb4c4ceb2571ade63d17ce7d/full/%21320%2C/0/default" alt="Strengthening Marriage">
+        <!--<img src="https://www.churchofjesuschrist.org/imgs/d5f7148867d0895aeb4c4ceb2571ade63d17ce7d/full/%21320%2C/0/default" alt="Strengthening Marriage"> -->
+        <img src="<?= BASE_URL ?>/public/images/students-in-school.jpg" alt="Students in School">
         <button class="toggle-btn">Be Interviewed</button>
         <div class="card-body">
           <h3><a href="https://www.churchofjesuschrist.org/study/manual/strengthening-marriage-resource-guide-for-couples?lang=eng" target="_blank">Priesthood Endorsement</a></h3>
