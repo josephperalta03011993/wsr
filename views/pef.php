@@ -140,7 +140,7 @@
       -->
 
       <!-- Main scroller container -->
-       <h3 style="margin: 5rem 0 2rem; color: #1f2937;">
+       <h3 style="margin: 5rem 0 2rem; color: #1f2937; text-align: center;">
           Success Stories: Education is the Key to Opportunity
         </h3>
       <div class="thumbnail-scroller">
