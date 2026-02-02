@@ -1427,8 +1427,24 @@ img {
         border-radius: 12px;
     }
 }
-
-
+    
+@media (max-width: 640px) {
+    .grid {
+        grid-template-columns: 1fr;   /* single column on small screens */
+        justify-items: stretch;       /* make children take full width */
+    }
+    .grid > * {
+        width: 100%;                  /* ensure items don’t shrink */
+    }
+    
+    .resources .grid {
+        grid-template-columns: 1fr; /* force single column */
+        justify-content: center;    /* keep the single column centered */
+    }
+    .resources .grid .card {
+        width: 85%;                /* ensure full width card */
+    }
+}
 
 /* TEST CAROUSEL FOR FAMILY-SERVICES PAGE */
 
@@ -1523,3 +1539,30 @@ img {
 .self-reliance-courses-grid {
     padding: 4rem 1.5rem;
 }
+
+
+/* Make sure AOS doesn't keep them invisible */
+  .cta .cta-content [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
+  }
+
+  /* Force visible, readable text */
+  .cta .cta-content,
+  .cta .cta-content * {
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important; /* defeats gradient-text transparency */
+    opacity: 1 !important;
+    visibility: visible !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+    text-shadow: none !important;
+  }
+
+  /* Just in case a rule zeroed font sizes on mobile */
+  .cta .cta-content h2 { font-size: 1.75rem !important; line-height: 1.25 !important; }
+  .cta .cta-content p  { font-size: 1rem !important; line-height: 1.6   !important; }
+
+  /* Ensure the background stays behind */
+  .cta .cta-bg { z-index: -1 !important; }

@@ -98,8 +98,8 @@
   <section class="cta" data-aos="zoom-in" data-aos-delay="200">
     <img src="https://i.pinimg.com/736x/c6/9e/22/c69e2246df9dd5a3a0ad078271ed2140.jpg" alt="Get Involved" class="cta-bg">
     <div class="cta-content">
-      <h2 data-aos="fade-up" data-aos-delay="400">Get Involved with WSR Today</h2>
-      <p data-aos="fade-up" data-aos-delay="600">Apply as Senior Service Missionary for Family Services, Employment Services, Humanitarian, Education, and other support for the Welfare and Self-Reliance Services.</p>
+      <h2 data-aos="fade-up">Get Involved with WSR Today</h2>
+      <p data-aos="fade-up">Apply as Senior Service Missionary for Family Services, Employment Services, Humanitarian, Education, and other support for the Welfare and Self-Reliance Services.</p>
       <div class="btn-group" data-aos="fade-up" data-aos-delay="800">
         <a href="#" class="btn btn-outline-light">Contact</a>
         <a href="#" class="btn btn-light">Join</a>
