@@ -59,27 +59,28 @@
         <h3 style="margin: 0.5rem 0 0; color: #1f2937;">
           Requirements Before Creating a Loan Account
         </h3>
-        <p>
-        <ul>Education for Better Work</ul>
-        <ul>Starting and Growing a Business</ul>
-        <ul>Find a Better Job</ul>
-        <ul>Personal Finances</ul>
-        <ul>Pathway Connect Life Skills 101 (English only)</ul>
-        </p>
+      </div>     
     <div class="grid">
       <!-- Your 2nd three main course cards -->
-      <!-- Card 1; Row 2 -->  
-      <div class="news-card" data-aos="fade-left" data-aos-delay="100">
-        <img src="<?= BASE_URL ?>/public/images/self-reliance.jpg" alt="Woman studying">
-        <button class="toggle-btn">Complete the Required Courses</button>
+      <!-- Card 2; Row 2 -->  
+      <div class="news-card" data-aos="fade-right" data-aos-delay="100">
+        <img src="<?= BASE_URL ?>/public/images/self-reliance.jpg" alt="Plan Writing">
+        <button class="toggle-btn">Required Course</button>
         <div class="card-body">
-          <button class="card-toggle" aria-expanded="false" aria-controls="card-1-body">
-          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/starting-and-growing-my-business?lang=eng" target="_blank">Starting and Growing My Business</a></h3>
-          <p>The goal of this group is not only to help you with your business; it is also to help you act in greater obedience and faith in the Lord and receive His promised blessings of temporal and spiritual self-reliance. </p>
-          <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
+          <h3><a href="https://portal.pef.churchofjesuschrist.org/home?culture=en-US#:~:text=COMPLETE%20THE%20REQUIRED,Self%2DReliance%20course." target="_blank">Complete One of the Following Courses</a></h3>
+          <!-- <p>EnglishConnect brings together English language learners, instructors, volunteers, and Church leaders to create an English learning program for all of God's children.</p> -->
+          <p>Education for Better Work, Starting & Growing My Business, Find a Better Job, Personal Finances, and Pathway Connect Life Skills 101.</p>
+          <!--<ul>
+            <li><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/education-for-better-work?lang=eng" target="_blank">Education for Better Work</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/starting-and-growing-my-business?lang=eng" target="_blank">Starting & Growing My Business</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/find-a-better-job?lang=eng" target="_blank">Find a Better Job</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/personal-finances?lang=eng" target="_blank">Personal Finances</a></li>
+            <li><a href="https://www.byupathway.org" target="_blank">Pathway Connect Life Skills 101</a></li>
+          </ul> -->
+          <!--<a href="https://www.englishconnect.org/get-started" target="_blank">Get Started</a> -->
+          </p>
         </div>
       </div>
-
       <!-- Card 2; Row 2 -->  
       <div class="news-card" data-aos="fade-right" data-aos-delay="100">
         <img src="<?= BASE_URL ?>/public/images/plan-write.png" alt="Plan Writing">
