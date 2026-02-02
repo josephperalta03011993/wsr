@@ -31,7 +31,7 @@
       </div>
       <!-- Card 3; Row 1 --> 
       <div class="news-card" data-aos="fade-up" data-aos-delay="200">
-        <img src="https://assets.ldscdn.org/a3/b9/a3b946444d8f281f4f4c62a2c04badda2bfb5f72/education_better_work_self_reliance.jpeg" alt="Education for Better Work">
+        <img src="<?= BASE_URL ?>/public/images/school.png" alt="Classroom">
         <button class="toggle-btn">Programs & Schools</button>
         <div class="card-body">
           <h3><a href="https://portal.pef.churchofjesuschrist.org/programsandschools/search" target="_blank">Programs & Schools</a></h3>
@@ -41,7 +41,7 @@
       </div>
       <!-- Card 4; Row 1 --> 
       <div class="news-card" data-aos="fade-right" data-aos-delay="100">
-        <img src="https://assets.ldscdn.org/d5/ea/d5ea0627687bdc4b05ba3b95521b948bfc8ad3ef/cover_find_better_job_manual.jpeg" alt="Find a Better Job">
+        <img src="<?= BASE_URL ?>/public/images/studying.png" alt="Studying">
         <button class="toggle-btn">Frequently Asked Questions</button>
         <div class="card-body">
           <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/find-a-better-job?lang=eng" target="_blank">Find a Better Job</a></h3>
@@ -54,7 +54,7 @@
     <div class="center" data-aos="fade-up" data-aos-delay="300" id="sr-courses">
       <div style="margin-bottom: 2rem;">
         <p style="color: #991b1b; font-weight: 600; margin: 0; font-size: 0.95rem; letter-spacing: 0.5px;">
-          Are You Planning for a PEF Loan?
+          Do You Need A PEF Loan?
         </p>
         <h3 style="margin: 0.5rem 0 0; color: #1f2937;">
           Requirements Before Creating a Loan Account
@@ -65,7 +65,7 @@
       <!-- Your 2nd three main course cards -->
       <!-- Card 1; Row 2 -->  
       <div class="news-card" data-aos="fade-left" data-aos-delay="100">
-        <img src="https://assets.ldscdn.org/97/3a/973a895dd96f9a76160fe5578da8c2f22a6b9e5c/logos_self_reliant_service_business.jpeg" alt="Required Courses">
+        <img src="<?= BASE_URL ?>/public/images/self-reliance.jpg" alt="Woman studying">
         <button class="toggle-btn">Complete the Required Courses</button>
         <div class="card-body">
           <button class="card-toggle" aria-expanded="false" aria-controls="card-1-body">
@@ -77,7 +77,7 @@
 
       <!-- Card 2; Row 2 -->  
       <div class="news-card" data-aos="fade-right" data-aos-delay="100">
-        <img src="https://byu-pathway.brightspotcdn.com/e2/19/d40666554b5aa40073d737d3c4f1/englishconnect-chevron-english.svg" alt="EnglishConnect">
+        <img src="<?= BASE_URL ?>/public/images/plan-write.png" alt="Plan Writing">
         <button class="toggle-btn">Make a Plan</button>
         <div class="card-body">
           <h3><a href="https://www.englishconnect.org/" target="_blank">Make a Plan</a></h3>
@@ -87,8 +87,7 @@
       </div>
       <!-- Card 3; Row 2 -->  
       <div class="news-card" data-aos="fade-up" data-aos-delay="200">
-        <!--<img src="https://www.churchofjesuschrist.org/imgs/d5f7148867d0895aeb4c4ceb2571ade63d17ce7d/full/%21320%2C/0/default" alt="Strengthening Marriage"> -->
-        <img src="<?= BASE_URL ?>/public/images/students-in-school.jpg" alt="Students in School">
+        <img src="<?= BASE_URL ?>/public/images/be-interviewed.jpg" alt="Young adult being interviewed">
         <button class="toggle-btn">Be Interviewed</button>
         <div class="card-body">
           <h3><a href="https://www.churchofjesuschrist.org/study/manual/strengthening-marriage-resource-guide-for-couples?lang=eng" target="_blank">Priesthood Endorsement</a></h3>
@@ -98,7 +97,7 @@
       </div>
       <!-- Card 4; Row 2 -->  
       <div class="news-card" data-aos="fade-right" data-aos-delay="100">
-        <img src="https://www.churchofjesuschrist.org/imgs/d5ad9e3a472c0ddfc3c6aaf9cc43fe35aa62e31a/full/%21320%2C/0/default" alt="Strengthening the Family">
+        <img src="<?= BASE_URL ?>/public/images/document-2.png" alt="Documents">
         <button class="toggle-btn">Gather Required Documents</button>
         <div class="card-body">
           <h3><a href="https://www.englishconnect.org/" target="_blank">Strengthening the Family</a></h3>
