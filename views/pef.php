@@ -60,6 +60,11 @@
           Requirements Before Creating a Loan Account
         </h3>
         <p>
+        <ul>Education for Better Work</ul>
+        <ul>Starting and Growing a Business</ul>
+        <ul>Find a Better Job</ul>
+        <ul>Personal Finances</ul>
+        <ul>Pathway Connect Life Skills 101 (English only)</ul>
         </p>
     <div class="grid">
       <!-- Your 2nd three main course cards -->
@@ -134,7 +139,7 @@
       -->
 
       <!-- Main scroller container -->
-       <h3 style="margin: 5rem 0 2rem; color: #1f2937; text-align: center;">
+       <h3 style="margin: 5rem 0 2rem; color: #1f2937;">
           Success Stories: Education is the Key to Opportunity
         </h3>
       <div class="thumbnail-scroller">
