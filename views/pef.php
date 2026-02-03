@@ -35,7 +35,7 @@
         <button class="toggle-btn">Programs & Schools</button>
         <div class="card-body">
           <h3><a href="https://portal.pef.churchofjesuschrist.org/programsandschools/search" target="_blank">Programs & Schools</a></h3>
-          <p>For those who need additional education or training to get a job. Group members will research, create, and present career and education plans.</p>
+          <p>Our primary focus is to help you become more temporally and spiritually self-reliant. For that reason, programs approved for PEF must teach skills that are in high demand in your community. This increases the likelihood—but does not guarantee—that you will get better employment when you complete your program.</p>
           <a href="mailto:educationsupportPHL@churchofjesuschrist.org?subject=PEF Inquiry from WSRPH.org" target="_blank">Ask an Education Support Specialist</a>
         </div>
       </div>
@@ -44,9 +44,9 @@
         <img src="<?= BASE_URL ?>/public/images/studying.png" alt="Studying">
         <button class="toggle-btn">Frequently Asked Questions</button>
         <div class="card-body">
-          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/find-a-better-job?lang=eng" target="_blank">Find a Better Job</a></h3>
-          <p>For those who are looking for work or a better job. Group members will learn to identify opportunities, network, and prepare for interviews.</p>
-          <a href="mailto:educationsupportPHL@churchofjesuschrist.org?subject=PEF Inquiry from WSRPH.org" target="_blank">Ask an Education Support Specialist</a>
+          <h3><a href="https://www.churchofjesuschrist.org/self-reliance/course-materials/find-a-better-job?lang=eng" target="_blank">PEF FAQs</a></h3>
+          <p>Find quick answers about PEF assistance, eligibility, application steps, payments, and program guidelines. Learn how the Perpetual Education Fund supports self-reliance through education and discover everything you need to know to start your journey.</p>
+          <a href="https://portal.pef.churchofjesuschrist.org/help" target="_blank">See the Frequently Asked Questions</a>
         </div>
       </div>
     </div>
@@ -87,8 +87,8 @@
         <button class="toggle-btn">Make a Plan</button>
         <div class="card-body">
           <h3><a href="https://www.englishconnect.org/" target="_blank">Make a Plan</a></h3>
-          <p>EnglishConnect brings together English language learners, instructors, volunteers, and Church leaders to create an English learning program for all of God's children.</p>
-          <a href="https://www.englishconnect.org/get-started" target="_blank">Get Started</a>
+          <p>Your PEF education plan includes: The type of work you want to do after completing your course, the required education, exams, certifications to do the work you want to do, a plan to make small payments while in school, the decision to repay the loan once you finish studying</p>
+          <a href="https://portal.pef.churchofjesuschrist.org/home#:~:text=MAKE%20A%20PLAN,days%20to%20process." target="_blank">Start Your Plan</a>
         </div>
       </div>
       <!-- Card 3; Row 2 -->  
@@ -97,8 +97,8 @@
         <button class="toggle-btn">Be Interviewed</button>
         <div class="card-body">
           <h3><a href="https://www.churchofjesuschrist.org/study/manual/strengthening-marriage-resource-guide-for-couples?lang=eng" target="_blank">Priesthood Endorsement</a></h3>
-          <p>The Lord has promised eternal family relationships to those who make and keep temple marriage covenants.</p>
-          <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
+          <p>You must have a priesthood endorsement from your bishop or branch president. He will complete the online endorsement in the Leader and Clerk Resources (LCR) under Reports.</p>
+          <a href="https://portal.pef.churchofjesuschrist.org/home#:~:text=BE%20INTERVIEWED,Unit%20Support%20team." target="_blank">Learn More</a>
         </div>
       </div>
       <!-- Card 4; Row 2 -->  
@@ -106,9 +106,9 @@
         <img src="<?= BASE_URL ?>/public/images/document-2.png" alt="Documents">
         <button class="toggle-btn">Gather Required Documents</button>
         <div class="card-body">
-          <h3><a href="https://www.englishconnect.org/" target="_blank">Strengthening the Family</a></h3>
+          <h3><a href="https://portal.pef.churchofjesuschrist.org/home#:~:text=GATHER%20REQUIRED%20DOCUMENTS,and%20or%20computer." target="_blank">Required Documents for Philippines</a></h3>
           <p>“Pray in your families unto the Father, always in my name, that your [families] may be blessed.”</p>
-          <a href="https://quickreg.churchofjesuschrist.org/?lang=eng" target="_blank">Find a Group</a>
+          <a href="https://portal.pef.churchofjesuschrist.org/print/disbursement/documentation" target="_blank">Print Document Requirements</a>
         </div>
       </div>
     </div>
@@ -149,22 +149,22 @@
           <!-- First set -->
           <img src="https://assets.ldscdn.org/df/be/dfbe11d05046fee99cee3b6633bca514a37706931050369/leader_guide_self_reliance.jpeg" alt="The Leader's Guide" width="195" height="130" loading="lazy" style="object-fit: cover;">
           <img src="https://assets.ldscdn.org/94/7c/947ce4e097db46e7bde59458926b980a92bc66d5/cover_my_path_self_reliance.jpeg" alt="My Path" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-3.png" alt="Job skills workshop" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Graduation celebration" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-5.png" alt="EnglishConnect class" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-6.png" alt="Financial planning session" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-7.png" alt="Business planning group" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Youth self-reliance activity" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-3.png" alt="Job skills workshop" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-4.png" alt="Graduation celebration" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-5.png" alt="EnglishConnect class" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-6.png" alt="Financial planning session" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-7.png" alt="Business planning group" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-4.png" alt="Youth self-reliance activity" width="195" height="130" loading="lazy" style="object-fit: cover;">
 
           <!-- Duplicate set (exact same as above) -->
-          <img src="<?= BASE_URL ?>/public/images/slider-1.png" alt="Self-Reliance group meeting" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-2.png" alt="Members learning together" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-3.png" alt="Job skills workshop" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Graduation celebration" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-5.png" alt="EnglishConnect class" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-6.png" alt="Financial planning session" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-7.png" alt="Business planning group" width="195" height="130" loading="lazy" style="object-fit: cover;">
-          <img src="<?= BASE_URL ?>/public/images/slider-4.png" alt="Youth self-reliance activity" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-1.png" alt="Self-Reliance group meeting" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-2.png" alt="Members learning together" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-3.png" alt="Job skills workshop" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-4.png" alt="Graduation celebration" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-5.png" alt="EnglishConnect class" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-6.png" alt="Financial planning session" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-7.png" alt="Business planning group" width="195" height="130" loading="lazy" style="object-fit: cover;">
+          <img src="<?= BASE_URL ?>/public/images/pef/slider-4.png" alt="Youth self-reliance activity" width="195" height="130" loading="lazy" style="object-fit: cover;">
         </div>
       </div>
     </div>
