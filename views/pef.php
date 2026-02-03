@@ -107,7 +107,7 @@
         <button class="toggle-btn">Gather Required Documents</button>
         <div class="card-body">
           <h3><a href="https://portal.pef.churchofjesuschrist.org/home#:~:text=GATHER%20REQUIRED%20DOCUMENTS,and%20or%20computer." target="_blank">Required Documents for Philippines</a></h3>
-          <p>“Pray in your families unto the Father, always in my name, that your [families] may be blessed.”</p>
+          <p>Self-reliance course certificate or letter of completion, or Pathway Connect Life Skills 101 transcrip; PEF signed letter of completion; School Assessment; National ID</p>
           <a href="https://portal.pef.churchofjesuschrist.org/print/disbursement/documentation" target="_blank">Print Document Requirements</a>
         </div>
       </div>
