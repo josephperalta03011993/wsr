@@ -169,7 +169,10 @@ body {
         display: none;
     }
 
-    /* too subtle on mobile */
+    .cta {
+        opacity: 1;
+        transform: none;
+    }
 }
 
 .carousel-indicators {
@@ -776,6 +779,7 @@ img {
     z-index: 1;
     max-width: 40rem;
     margin: 0 auto;
+    overflow: visible;
 }
 
 .cta h2 {
@@ -1542,27 +1546,39 @@ img {
 
 
 /* Make sure AOS doesn't keep them invisible */
-  .cta .cta-content [data-aos] {
+/* .cta .cta-content [data-aos] {
     opacity: 1 !important;
     transform: none !important;
     visibility: visible !important;
-  }
+} */
 
   /* Force visible, readable text */
-  .cta .cta-content,
-  .cta .cta-content * {
+.cta .cta-content h2,
+.cta .cta-content p {
     color: #fff !important;
     -webkit-text-fill-color: #fff !important; /* defeats gradient-text transparency */
-    opacity: 1 !important;
-    visibility: visible !important;
-    filter: none !important;
-    mix-blend-mode: normal !important;
-    text-shadow: none !important;
-  }
+}
 
   /* Just in case a rule zeroed font sizes on mobile */
-  .cta .cta-content h2 { font-size: 1.75rem !important; line-height: 1.25 !important; }
-  .cta .cta-content p  { font-size: 1rem !important; line-height: 1.6   !important; }
+.cta .cta-content h2 { font-size: 1.75rem !important; line-height: 1.25 !important; }
+.cta .cta-content p  { font-size: 1rem !important; line-height: 1.6   !important; }
 
   /* Ensure the background stays behind */
-  .cta .cta-bg { z-index: -1 !important; }
+.cta .cta-bg { z-index: -1 !important; }
+
+#btn-contact-home, #btn-join-home {
+    background: #fff;
+    padding: .7rem 2rem;
+    color: #000000;
+    text-decoration: none;
+    border: #fff 1px solid;
+}
+
+#btn-contact-home:hover, 
+#btn-join-home:hover {
+    border: #fff 1px solid;
+    padding: .7rem 2rem;
+    background: #000000;
+    color: #fff;
+    text-decoration: none;
+}

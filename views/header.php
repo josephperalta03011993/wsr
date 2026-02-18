@@ -235,7 +235,12 @@
         duration: 800,
         easing: 'cubic-bezier(0.4, 0, 0.2, 1)',
         once: true,        // Animation happens only once
-        offset: 100
+        offset: -150,
+        delay: 0,
       });
+
+      setTimeout(function() {
+        AOS.refresh();
+      }, 800);  // 800ms delay
     });
   </script>
