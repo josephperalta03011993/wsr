@@ -81,6 +81,7 @@
                 <a href="<?= BASE_URL ?>views/benson-scholarship.php">Benson Scholarship</a>
                 <a href="<?= BASE_URL ?>views/education-services.php">Education Resources</a>
                 <a href="<?= BASE_URL ?>views/scholarships-grants.php">Scholarships & Grants</a>
+                <a href="<?= BASE_URL ?>views/downloadable-files.php">Downloadable Files</a>
             </div>
           </div>
           <!-- Employment Services -->
