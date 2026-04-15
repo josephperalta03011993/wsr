@@ -36,19 +36,19 @@
         <span class="material-icons">explore</span>
         <h3>WSR Products & Services</h3>
         <p>Discover a range of programs designed to uplift and support our values.</p>
-        <a href="#">Learn More →</a>
+        <a href="<?= BASE_URL ?>views/programs.php">Learn More →</a>
       </div>
       <div class="card" data-aos="fade-up" data-aos-delay="200">
         <span class="material-icons">school</span>
         <h3>Self-Reliance Courses</h3>
         <p>Self-reliance courses are structured learning programs designed to help individuals become more capable of meeting their own needs and improving their quality of life. </p>
-        <a href="#">Sign Up →</a>
+        <a href="<?= BASE_URL ?>views/sr-courses.php">View Courses →</a>
       </div>
       <div class="card" data-aos="fade-up" data-aos-delay="300">
         <span class="material-icons">groups</span>
         <h3>Join a Self-Reliance Group</h3>
         <p>Become part of a network that celebrates achievements and supports others.</p>
-        <a href="../wsr/views/group.php">Contact Us →</a>
+        <a href="https://quickreg.churchofjesuschrist.org/" target="_blank">Join a Group →</a>
       </div>
     </div>
   </section>
@@ -103,8 +103,8 @@
         Apply as Senior Service Missionary for Family Services, Employment Services, Humanitarian, Education, and other support for the Welfare and Self-Reliance Services.
       </p>
       <div class="btn-group" data-aos-offset="-150" data-aos="fade-up" data-aos-delay="400">
-        <a href="#" class="btn" id="btn-contact-home">Contact</a>
-        <a href="#" class="btn" id="btn-join-home">Join</a>
+        <a href="https://seniormissionary.churchofjesuschrist.org/srsite/help/submit-question?lang=eng" target="_blank" class="btn" id="btn-contact-home">Contact</a>
+        <a href="https://seniormissionary.churchofjesuschrist.org/srsite/" target="_blank" class="btn" id="btn-join-home">Join</a>
       </div>
     </div>
   </section>
