@@ -155,7 +155,7 @@
               Specialized Working Groups
             </button>
             <div class="submenu-panel" x-show="openSection === 'swg'" x-transition x-cloak>
-              <a href="<?= BASE_URL ?>views/swg.php">Overview</a>
+              <a href="https://www.churchofjesuschrist.org/study/manual/general-handbook/22-providing-for-temporal-needs?lang=eng#:~:text=22.12%20for%20examples)-,22.10.2,Others%20as%20needed.,-22.11" target="_blank">Overview</a>
               <a href="/views/swg-how-to-organize.php">How to Organize</a>
               <a href="/views/swg-roles.php">Roles and Responsibilities</a>
             </div>
