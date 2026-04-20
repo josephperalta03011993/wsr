@@ -79,7 +79,7 @@
               <div class="submenu-panel" x-show="openSection === 'education'" x-transition x-cloak>
                 <a href="<?= BASE_URL ?>views/pef.php">Perpetual Education Fund</a>
                 <a href="<?= BASE_URL ?>views/benson-scholarship.php">Benson Scholarship</a>
-                <a href="<?= BASE_URL ?>views/education-services.php">Education Resources</a>
+                <a href="https://www.byupathway.edu/" target="_blank">BYU Pathway Worldwide</a>
                 <a href="<?= BASE_URL ?>views/scholarships-grants.php">Scholarships & Grants</a>
                 <a href="<?= BASE_URL ?>views/downloadable-files.php">Downloadable Files</a>
             </div>

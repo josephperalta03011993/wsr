@@ -21,8 +21,8 @@
     <h2 data-aos="fade-up" data-aos-delay="200">Welfare and Self-Reliance Services</h2>
     <p data-aos="fade-up" data-aos-delay="400">Online resources of WSR products and services for Stake Leaders, Specialists, Unit Leaders, and members.</p>
     <div class="btn-group" data-aos="fade-up" data-aos-delay="600">
-      <a href="#" class="btn btn-primary">Learn More</a>
-      <a href="#" class="btn btn-outline">Get Involved</a>
+      <a href="https://www.churchofjesuschrist.org/callings/welfare-self-reliance/resources?lang=eng" target="_blank" class="btn btn-primary">Learn More</a>
+      <a href="https://www.churchofjesuschrist.org/life/self-reliance?lang=eng" target="_blank" class="btn btn-outline">Get Involved</a>
     </div>
   </section>
 
@@ -85,12 +85,12 @@
           <p class="subtitle">Events</p>
           <h3>Upcoming Events</h3>
           <p>Join our upcoming training and community events.</p>
-          <a href="../wsr/views/news.php">Read more →</a>
+          <a href="https://www.facebook.com/groups/phwelfareandselfrelianceserves" target="_blank">Read More →</a>
         </div>
       </div>
     </div>
     <div class="center" data-aos="fade-up" data-aos-delay="300">
-      <a href="#" class="btn btn-outline">View All</a>
+      <a href="https://www.facebook.com/groups/549825222915998" target="_blank" class="btn btn-outline">View All</a>
     </div>
   </section>
 
