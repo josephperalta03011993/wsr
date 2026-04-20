@@ -92,8 +92,9 @@
               Employment Services
             </button>
             <div class="submenu-panel" x-show="openSection === 'employmentServices'" x-transition x-cloak>
-              <a href="/views/ajs.php">AJS</a>
-              <a href="/views/coaching.php">Personalized Coaching</a>
+              <a href="https://www.churchofjesuschrist.org/life/employment-services?lang=eng" target="_blank">Resources & Services</a>
+              <a href="https://www.churchofjesuschrist.org/life/help-for-job-seekers?lang=eng" target="_blank">Services & Support</a>
+              <a href="https://employmentservices.churchofjesuschrist.org/jobSeekers" target="_blank">Personalized Help</a>
             </div>
           </div>
           <!-- Humanitarian Services -->
