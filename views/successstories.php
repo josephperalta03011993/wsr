@@ -13,7 +13,7 @@ $result = $conn->query($query);
   <section class="hero-carousel blog-hero-section" data-aos="fade-down">
     <div class="carousel-container">
       <div class="carousel-slide active" 
-           style="background-image: url('<?= BASE_URL ?>/public/images/blog-hero-1.jpg');">
+           style="background-image: url('<?= BASE_URL ?>/public/images/success-stories/local-family-2.jpg');">
         <div class="hero-overlay"></div>
         <div class="hero-text container">
           <h1 data-aos="fade-up" data-aos-delay="300">Success Stories & Insights</h1>
@@ -79,7 +79,7 @@ $result = $conn->query($query);
 
   <!-- PREMIUM CTA SECTION (matches homepage exactly) -->
   <section class="cta" data-aos="zoom-in">
-    <img src="<?= BASE_URL ?>public/images/empowering-lives-through-self-reliance.png" alt="Share your story" class="cta-bg">
+    <img src="<?= BASE_URL ?>public/images/success-stories/female-2.jpg" alt="Share your story" class="cta-bg">
     <div class="cta-content container">
       <h2 data-aos="fade-up" data-aos-delay="200">Your Story Matters</h2>
       <p data-aos="fade-up" data-aos-delay="400">
@@ -87,8 +87,8 @@ $result = $conn->query($query);
         Inspire thousands by sharing your journey.
       </p>
       <div class="btn-group" data-aos="fade-up" data-aos-delay="600">
-        <a href="contact.php" class="btn btn-outline-light">Contact Us</a>
-        <a href="submit-story.php" class="btn btn-light">Submit Your Story</a>
+        <a href="https://www.churchofjesuschrist.org/welcome/find-a-church?lang=eng" target="_blank" class="btn btn-outline-light">Contact Us</a>
+        <a href="https://forms.gle/aL66HtzPnQto37Bk6" target="_blank" class="btn btn-light">Submit Your Story</a>
       </div>
     </div>
   </section>
