@@ -88,6 +88,12 @@ NAVIGATION BAR
     Target for 04/16/2026
     1. Family Services page
     2. Family Services resources links
+    3. Downloadable files link; add to Leader Resources submenu
+        - ATPG
+        - GAMA 2.0
+        - Self-Reliance Plan
+        - Bishops Guide to Self-Reliance Plan
+        - SFSR Training Materials
 
     
     To follow:

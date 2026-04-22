@@ -113,10 +113,12 @@
               Family Services
             </button>
             <div class="submenu-panel" x-show="openSection === 'family'" x-transition x-cloak>
-              <a href="/views/fs_cosultation.php">Consultation</a>
-              <a href="/views/self-reliance.php#courses">Addiction Recovery Support Groups</a>
-              <a href="/views/self-reliance-manuals.php">Courses</a>
-              <a href="/views/self-reliance-manuals.php">Online Resources</a>
+              <a href="https://www.churchofjesuschrist.org/life/family-services?lang=eng&cid=rdb_v_familyservices" target="_blank">How Family Services Can Help</a>
+              <a href="https://addictionrecovery.churchofjesuschrist.org/?lang=eng&clientTimezone=Asia/Manila&meetingTypes=&genders=menAndWomen,menOnly,womenOnly,ysaMenAndWomen,ysaMenOnly,ysaWomenOnly,couples,wives&groupTypes=all&page=1&lat=14.60144614742412&lng=121.06875276431217" target="_blank">Addiction Recovery Program</a>
+              <a href="https://providentliving.churchofjesuschrist.org/lds-family-services/find-an-office?lang=eng" target="_blank">Family Services Offices</a>
+              <a href="https://www.churchofjesuschrist.org/study/books-and-lessons/family-resources?lang=eng" target="_blank">Family Resources</a>
+              <a href="https://www.churchofjesuschrist.org/study/life-help/mental-health?lang=eng" target="_blank">Mental Health</a>
+              <a href="<?= BASE_URL ?>public/images/crisis-hotline-fs.jpg" target="_blank">Crisis Hotline</a>
             </div>
           </div>
           <!-- My Plan Conference -->
