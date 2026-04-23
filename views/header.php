@@ -36,7 +36,7 @@
 <body>
   <header class="site-header">
     <!-- LOGO -->
-    <a href="/index.php" class="logo">
+    <a href="<?= BASE_URL ?>" class="logo">
       <img src="<?= BASE_URL ?>/public/images/logo.png" alt="WSR Logo"> <!-- need to figure out how to link this to index without duplicating -->
     </a>
 
