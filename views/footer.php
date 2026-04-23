@@ -4,7 +4,7 @@
         <img src="<?= BASE_URL ?>/public/images/logo.png" alt="WSR-LogoTemp">
       </section>
       <nav class="footer-nav">
-        <a href="#">Contact Us</a>
+        <a href="<?= BASE_URL ?>views/contact-us.php">Contact Us</a>
         <a href="https://quickreg.churchofjesuschrist.org/" target="_blank">Join Group</a>
         <a href="https://news-ph.churchofjesuschrist.org/" target="_blank">Latest News</a>
         <a href="#">Help Center</a>
