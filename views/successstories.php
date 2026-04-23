@@ -87,7 +87,7 @@ $result = $conn->query($query);
         Inspire thousands by sharing your journey.
       </p>
       <div class="btn-group" data-aos="fade-up" data-aos-delay="600">
-        <a href="https://www.churchofjesuschrist.org/welcome/find-a-church?lang=eng" target="_blank" class="btn btn-outline-light">Contact Us</a>
+        <a href="<?= BASE_URL ?>views/contact-us.php" target="_blank" class="btn btn-outline-light">Contact Us</a>
         <a href="https://forms.gle/aL66HtzPnQto37Bk6" target="_blank" class="btn btn-light">Submit Your Story</a>
       </div>
     </div>
