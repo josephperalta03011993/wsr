@@ -20,7 +20,7 @@
     <div class="footer-bottom">
       <p>© 2026 Welfare and Self-Reliance Services Philippines. All rights reserved.</p>
       <div class="footer-links">
-        <a href="<?= BASE_URL ?>">Privacy Policy</a>
+        <a href="<?= BASE_URL ?>views/privacy-policy.php">Privacy Policy</a>
         <a href="<?= BASE_URL ?>views/terms-of-use.php">Terms of Use</a>
         <a href="<?= BASE_URL ?>views/cookie-policy.php">Cookie Policy</a>
       </div>
