@@ -129,14 +129,14 @@
               My Plan Conference
             </button>
             <div class="submenu-panel" x-show="openSection === 'myplan'" x-transition x-cloak>
-              <a href="/views/myplan.php">Info & Registration</a>
+              <a href="<?= BASE_URL ?>views/myplan.php">Info & Registration</a>
             </div>
           </div>
         </div>
       </div>
 
       <a href="<?= BASE_URL ?>views/successstories.php">Success Stories</a>
-      <a href="<?= BASE_URL ?>views/contacts.php">About Us</a> <!--Contact Us will go to this page-->
+      <a href="<?= BASE_URL ?>views/contact-us.php">About Us</a> <!--Contact Us will go to this page-->
       <div class="dropdown" x-data="{ menuOpen: false, openSection: null }">
         <!-- Leaders Resources button -->
         <button class="dropdown-toggle"
