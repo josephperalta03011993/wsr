@@ -107,7 +107,7 @@ $post = $result->fetch_assoc();
         Share your journey and inspire others today.
       </p>
       <div class="btn-group" data-aos="fade-up" data-aos-delay="600">
-        <a href="<?= BASE_URL ?>/wsr/views/contact-us.php" class="btn btn-outline-light">Contact Us</a>
+        <a href="<?= BASE_URL ?>views/contact-us.php" class="btn btn-outline-light">Contact Us</a>
         <a href="https://forms.gle/aL66HtzPnQto37Bk6" target="_blank" class="btn btn-light">Submit Your Story</a>
       </div>
     </div>
