@@ -60,7 +60,7 @@ $post = $result->fetch_assoc();
             <!-- Back Button + Share (optional) -->
             <div class="mt-5 pt-4 border-top d-flex flex-wrap gap-3 justify-content-between align-items-center" 
                  data-aos="fade-up" data-aos-delay="400">
-              <a href="<?= BASE_URL ?>/wsr/views/blogs.php" class="btn btn-outline">
+              <a href="<?= BASE_URL ?>views/successstories.php" class="btn btn-outline">
                 Back to All Stories
               </a>
 
@@ -89,7 +89,7 @@ $post = $result->fetch_assoc();
         <p class="lead text-muted mb-4">
           The success story you're looking for may have been moved, unpublished, or is temporarily unavailable.
         </p>
-        <a href="<?= BASE_URL ?>/wsr/views/blogs.php" class="btn btn-primary btn-lg">
+        <a href="<?= BASE_URL ?>views/successstories.php" class="btn btn-primary btn-lg">
           Back to Success Stories
         </a>
       </div>
@@ -99,7 +99,7 @@ $post = $result->fetch_assoc();
 
   <!-- MATCHING CTA (same as other pages) -->
   <section class="cta" data-aos="zoom-in">
-    <img src="<?= BASE_URL ?>/public/images/empowering-lives-through-self-reliance.png" alt="Share your story" class="cta-bg">
+    <img src="<?= BASE_URL ?>/public/images/plane-clouds.jpg" alt="Share your story" class="cta-bg">
     <div class="cta-content container">
       <h2 data-aos="fade-up" data-aos-delay="200">Your Story Could Be Next</h2>
       <p data-aos="fade-up" data-aos-delay="400">
@@ -107,8 +107,8 @@ $post = $result->fetch_assoc();
         Share your journey and inspire others today.
       </p>
       <div class="btn-group" data-aos="fade-up" data-aos-delay="600">
-        <a href="<?= BASE_URL ?>/wsr/views/contact.php" class="btn btn-outline-light">Contact Us</a>
-        <a href="#" class="btn btn-light">Submit Your Story</a>
+        <a href="<?= BASE_URL ?>/wsr/views/contact-us.php" class="btn btn-outline-light">Contact Us</a>
+        <a href="https://forms.gle/aL66HtzPnQto37Bk6" target="_blank" class="btn btn-light">Submit Your Story</a>
       </div>
     </div>
   </section>
