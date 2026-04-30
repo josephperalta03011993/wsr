@@ -129,7 +129,7 @@
               My Plan Conference
             </button>
             <div class="submenu-panel" x-show="openSection === 'myplan'" x-transition x-cloak>
-              <a href="<?= BASE_URL ?>views/myplan.php">Info & Registration</a>
+              <a href="<?= BASE_URL ?>views/my-plan.php">Info & Registration</a>
             </div>
           </div>
         </div>
