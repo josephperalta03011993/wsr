@@ -46,9 +46,14 @@ body {
     height: 100%;
     opacity: 0;
     transition: opacity 1s ease-in-out;
-    background-position: center center !important;
+    /* background-position: center center !important;
     background-size: contain !important;
-    background-repeat: no-repeat !important;
+    background-repeat: no-repeat !important; */
+
+    background-size: cover;         /* fills horizontally */
+    background-position: center;    /* keeps focus centered */
+    background-repeat: no-repeat;
+
     /* Optional but recommended – fallback color if image fails */
     background-color: #991b1b;
 }
@@ -1204,10 +1209,23 @@ img {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
 }
 
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: 1;
+}
+
 .blog-hero-single .hero-text h1 {
     font-size: 3.8rem;
     font-weight: 800;
     line-height: 1.2;
+}
+
+.hero-text {   
+    color: #fff;
+    z-index: 2;
+    position: relative;
 }
 
 .blog-hero-single .subtitle {

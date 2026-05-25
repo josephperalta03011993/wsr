@@ -19,7 +19,7 @@ $post = $result->fetch_assoc();
     <section class="hero-carousel blog-hero-single" data-aos="fade-down">
       <div class="carousel-container">
         <div class="carousel-slide active"
-             style="background-image: url('<?= BASE_URL ?>/public/images/<?= htmlspecialchars($post['image'] ?: 'default-blog-hero.jpg') ?>');">
+             style="background-image: url('<?= BASE_URL ?>/public/images/<?= htmlspecialchars($post['image-header'] ?: 'default-blog-hero.jpg') ?>');">
           <div class="hero-overlay"></div>
           <div class="hero-text container text-center">
             <p class="subtitle text-light mb-2" data-aos="fade-up" data-aos-delay="200">
@@ -45,7 +45,7 @@ $post = $result->fetch_assoc();
 
             <!-- Featured Image (below hero on mobile, full width) -->
             <div class="featured-image mb-5" data-aos="fade-up">
-              <img src="<?= BASE_URL ?>/public/images/<?= htmlspecialchars($post['image-header'] ?: 'default-blog.jpg') ?>"
+              <img src="<?= BASE_URL ?>/public/images/<?= htmlspecialchars($post['image'] ?: 'default-blog.jpg') ?>"
                    alt="<?= htmlspecialchars($post['title']) ?>"
                    class="img-fluid rounded-4 shadow-lg w-100"
                    style="max-height: 520px; object-fit: cover;"
