@@ -47,7 +47,7 @@ body {
     opacity: 0;
     transition: opacity 1s ease-in-out;
     background-position: center center !important;
-    background-size: cover !important;
+    background-size: contain !important;
     background-repeat: no-repeat !important;
     /* Optional but recommended – fallback color if image fails */
     background-color: #991b1b;
