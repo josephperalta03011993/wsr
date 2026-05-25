@@ -45,7 +45,7 @@ $post = $result->fetch_assoc();
 
             <!-- Featured Image (below hero on mobile, full width) -->
             <div class="featured-image mb-5" data-aos="fade-up">
-              <img src="<?= BASE_URL ?>/public/images/<?= htmlspecialchars($post['image'] ?: 'default-blog.jpg') ?>"
+              <img src="<?= BASE_URL ?>/public/images/<?= htmlspecialchars($post['image-header'] ?: 'default-blog.jpg') ?>"
                    alt="<?= htmlspecialchars($post['title']) ?>"
                    class="img-fluid rounded-4 shadow-lg w-100"
                    style="max-height: 520px; object-fit: cover;"
